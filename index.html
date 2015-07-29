@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Presidential Wordcounts</title>
+		<link rel="stylesheet" href="../global/css/c3.min.css" type="text/css" media="all">
+		<link rel="stylesheet" href="../global/css/portfolio.css" type="text/css" media="all">
+		<link rel="stylesheet" href="css/wordcounts.css" type="text/css" media="all">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+		<script src="../global/scripts/c3.min.js"></script>
+		<script src="../global/scripts/iscroll.js"></script>
+	</head>
+	<body>
+		<div class="page-wrap">
+            <input type="checkbox" id="toggle1" class="checkbox-toggle">
+    		<header>	
+        		<label class="menu-button" for="toggle1"><span class="menu-toggle"></span></label>
+                <h1>word counts</h1>
+            </header>
+            <div class="main-content">  
+                <aside class="candidates"> 
+                    <h2>candidates</h2>
+                    <div class="scroll-area">   
+                        <div class="scroll-wrapper" id="candidates">
+                        	<div class="scroll-content ">
+                                <ul class="candidate-list checkbox-list" id="candidate-list">
+                                </ul>
+                        	</div>
+                        </div>
+                    </div>
+                    <h2>issues</h2>
+                    <div class="scroll-area">   
+                        <div class="scroll-wrapper" id="issues">
+                        	<div class="scroll-content">
+                                 <ul class="issue-list checkbox-list">
+                                    <li><input type="checkbox" id="issue1"><label class="checkbox" for="issue1" data-issue="issue1">Economy</label></li>
+                                    <li><input type="checkbox" id="issue2"><label class="checkbox"  for="issue2" data-issue="issue2">Education</label></li>
+                                    <li><input type="checkbox" id="issue3"><label class="checkbox"  for="issue3" data-issue="issue3">Energy</label></li>
+                                    <li><input type="checkbox" id="issue4"><label class="checkbox" for="issue4" data-issue="issue4">Foreign Policy</label></li>
+                                    <li><input type="checkbox" id="issue5"><label class="checkbox" for="issue5" data-issue="issue5">Health Care</label></li>
+                                    <li><input type="checkbox" id="issue6"><label class="checkbox" for="issue6" data-issue="issue6">Iraq</label></li>
+                                    <li><input type="checkbox" id="issue7"><label class="checkbox" for="issue7" data-issue="issue7">Technology</label></li>
+                                    <li><input type="checkbox" id="issue8"><label class="checkbox" for="issue8" data-issue="issue8">Social Issues</label></li>
+                                    <li><input type="checkbox" id="issue9"><label class="checkbox" for="issue9" data-issue="issue9">Environment</label></li>
+                                    <li><input type="checkbox" id="issue10"><label class="checkbox" for="issue10" data-issue="issue10">Biography</label></li>
+                                </ul>
+                        	</div>
+                        </div>
+                    </div>
+                </aside>
+                <main role="main">
+                    <h2>Word Counts on Major Issues</h2>
+                    <div class="chart" id="chart"> 
+                        
+                    </div>
+                    <h5>Candidates</h5>
+                    <ul class="selected-candidates" id="selected-candidates"></ul>
+                </main>
+            </div>
+		</div>
+		<footer> 
+    		footer
+		</footer>
+		<script src="scripts/chart.js"></script>
+        <script>    
+            var myScroll;
+            
+            function candidatesScroll() {
+            	myScroll = new IScroll('#candidates', {
+            		scrollbars: true,
+            		mouseWheel: true,
+            		interactiveScrollbars: true,
+            		shrinkScrollbars: 'scale',
+            		click: false,
+            		fadeScrollbars: false
+            	});
+            }
+
+            function issuesScroll() {
+            	myScroll = new IScroll('#issues', {
+            		scrollbars: true,
+            		mouseWheel: true,
+            		interactiveScrollbars: true,
+            		shrinkScrollbars: 'scale',
+            		click: false,
+            		fadeScrollbars: false
+            	});
+            }
+            
+            document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+            
+            setTimeout(function(){
+                candidatesScroll();
+                issuesScroll();
+            },1000);            
+            
+        </script>	
+    </body>
+</html>

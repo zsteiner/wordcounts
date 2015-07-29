@@ -1,0 +1,131 @@
+@import "bourbon", "neat";
+@import "../../global/sass/reset";
+@import "../../global/sass/utility";
+@import "../../global/sass/variables";
+@import "../../global/sass/footer-sticky";
+@import "../../global/sass/typography";
+
+@import 'iscroll';
+
+$height: 8rem;
+$height-offset: $height / 2;
+
+@import 'menu-button';
+@import 'sidebar';
+
+.chart {
+    width: 100%;
+    height: 16em;
+    margin-bottom: spacer(2);
+}
+
+header {
+    padding: spacer(1);
+    height: 5rem;
+    border-bottom: 1px solid $info;
+    
+    @include media($mobile) {
+        height: 4rem;
+    }
+}
+
+.main-content {
+    display: flex;
+    width: 100%;
+}
+
+main {
+    padding: spacer(1);
+    flex: 1 1 auto;
+}
+
+.candidate-list {
+    
+    h1 {
+        font-size: 1.5em;
+    }
+    
+    
+    li {
+        overflow: auto;
+        margin-bottom: spacer(.5);
+        padding-right: spacer(.5);
+        cursor: pointer;
+    }
+}
+
+.candidate-image {
+    height: 3em;
+    width: 3em;
+    margin-bottom: spacer(.5);
+    border-radius: .25em;
+    margin-right: spacer(.5);
+}
+
+.candidate-name {
+    margin-bottom: spacer(.25);
+    overflow: auto;
+    line-height: 1.25;
+}
+
+.candidate-site {
+    font-size: .75rem;
+    line-height: 1.25;
+}
+
+.party {
+    display: inline-block;
+    color: white;
+    padding: .25em .5em;
+    margin-bottom: spacer(.25);
+    float: left;
+    line-height: 1.25;
+    border-radius: .25em;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: .5em;
+    
+    &.dem {
+        background: $secondary;
+        
+        &:before {
+            content: "D";
+        }
+    }
+
+    &.gop {
+        background: $alert;
+        
+        &:before {
+            content: "R";
+        }
+    }
+}
+
+.issue-list {
+    li {
+        margin-bottom: spacer(1);
+        font-size: 1.25em;
+    }
+}
+
+.selected-candidates {
+    li {
+        display: inline-block;
+        margin-right: spacer(.5);
+        position: relative;
+    
+        &:hover:after {
+            content: attr(data-candidate-name);
+            position: absolute;
+            display: block;
+            bottom: -50%;
+        }
+    }
+}
+
+footer {
+    border-top: 1px solid $info;
+}
+
+@import 'checkboxes';
