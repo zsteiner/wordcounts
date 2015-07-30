@@ -3,161 +3,184 @@
     "last":"Bush",
     "first":"Jeb",
     "party":"gop",
-    "image":"bush",
-    "url":"https://jeb2016.com/"
+    "code":"bush",
+    "url":"https://jeb2016.com/",
+    "default": true
   },
   {
     "last":"Carson",
     "first":"Ben",
     "party":"gop",
-    "image":"carson",
-    "url":"https://www.bencarson.com"
+    "code":"carson",
+    "url":"https://www.bencarson.com",
+    "default": false
   },
   {
     "last":"Chafee",
     "first":"Lincoln",
     "party":"dem",
-    "image":"chafee",
-    "url":"http://www.chafee2016.com"
+    "code":"chafee",
+    "url":"http://www.chafee2016.com",
+    "default": false
   },
   {
     "last":"Christie",
     "first":"Chris",
     "party":"gop",
-    "image":"christie",
-    "url":"https://www.chrischristie.com"
+    "code":"christie",
+    "url":"https://www.chrischristie.com",
+    "default": false
   },
   {
     "last":"Clinton",
     "first":"Hillary",
     "party":"dem",
-    "image":"clinton",
-    "url":"https://www.hillaryclinton.com"
+    "code":"clinton",
+    "url":"https://www.hillaryclinton.com",
+    "default": true
   },
   {
     "last":"Cruz",
     "first":"Ted",
     "party":"gop",
-    "image":"cruz",
-    "url":"https://www.tedcruz.org"
+    "code":"cruz",
+    "url":"https://www.tedcruz.org",
+    "default": false
   },
   {
     "last":"Fiorina",
     "first":"Carly",
     "party":"gop",
-    "image":"fiorina",
-    "url":"https://carlyforpresident.com"
+    "code":"fiorina",
+    "url":"https://carlyforpresident.com",
+    "default": false
   },
   {
     "last":"Graham",
     "first":"Lindsey",
     "party":"gop",
-    "image":"graham",
-    "url":"http://www.lindseygraham.com"
+    "code":"graham",
+    "url":"http://www.lindseygraham.com",
+    "default": false
   },
   {
     "last":"Huckabee",
     "first":"Mike",
     "party":"gop",
-    "image":"huckabee",
-    "url":"http://www.mikehuckabee.com/"
+    "code":"huckabee",
+    "url":"http://www.mikehuckabee.com/",
+    "default": false
   },
   {
     "last":"Jindal",
     "first":"Bobby",
     "party":"gop",
-    "image":"jindal",
-    "url":"https://www.bobbyjindal.com"
+    "code":"jindal",
+    "url":"https://www.bobbyjindal.com",
+    "default": false
   },
   {
     "last":"Kasich",
     "first":"John",
     "party":"gop",
-    "image":"kasich",
-    "url":"https://johnkasich.com"
+    "code":"kasich",
+    "url":"https://johnkasich.com",
+    "default": false
   },
   {
-    "last":"McCain in 2008",
+    "last":"McCain",
     "first":"John",
     "party":"gop",
-    "image":"mccain2008",
-    "url":"http://johnmccain.com"
+    "code":"mccain",
+    "url":"http://johnmccain.com",
+    "default": true
   },
   {
-    "last":"O’Malley",
+    "last":"OMalley",
     "first":"Martin",
     "party":"dem",
-    "image":"omalley",
-    "url":"https://martinomalley.com"
+    "code":"omalley",
+    "url":"https://martinomalley.com",
+    "default": false
   },
   {
-    "last":"Obama in 2008",
+    "last":"Obama",
     "first":"Barack",
     "party":"dem",
-    "image":"obama2008",
-    "url":"https://barackobama.com/"
+    "code":"obama",
+    "url":"https://barackobama.com/",
+    "default": true
   },
   {
     "last":"Pataki",
     "first":"George",
     "party":"gop",
-    "image":"pataki",
-    "url":"http://www.georgepataki.com"
+    "code":"pataki",
+    "url":"http://www.georgepataki.com",
+    "default": false
   },
   {
     "last":"Paul",
     "first":"Rand",
     "party":"gop",
-    "image":"paul",
-    "url":"https://www.randpaul.com"
+    "code":"paul",
+    "url":"https://www.randpaul.com",
+    "default": false
   },
   {
     "last":"Perry",
     "first":"Rick",
     "party":"gop",
-    "image":"perry",
-    "url":"https://rickperry.org"
+    "code":"perry",
+    "url":"https://rickperry.org",
+    "default": false
   },
   {
     "last":"Rubio",
     "first":"Marco",
     "party":"gop",
-    "image":"rubio",
-    "url":"https://marcorubio.com"
+    "code":"rubio",
+    "url":"https://marcorubio.com",
+    "default": false
   },
   {
     "last":"Sanders",
     "first":"Bernie",
     "party":"dem",
-    "image":"sanders",
-    "url":"https://berniesanders.com"
+    "code":"sanders",
+    "url":"https://berniesanders.com",
+    "default": false
   },
   {
     "last":"Santorum",
     "first":"Rick",
     "party":"gop",
-    "image":"santorum",
-    "url":"http://www.ricksantorum.com"
+    "code":"santorum",
+    "url":"http://www.ricksantorum.com",
+    "default": false
   },
   {
     "last":"Trump",
     "first":"Donald",
     "party":"gop",
-    "image":"trump",
-    "url":"https://www.donaldjtrump.com"
+    "code":"trump",
+    "url":"https://www.donaldjtrump.com",
+    "default": false
   },
   {
     "last":"Walker",
     "first":"Scott",
     "party":"gop",
-    "image":"walker",
-    "url":"https://www.scottwalker.com "
+    "code":"walker",
+    "url":"https://www.scottwalker.com ",
+    "default": false
   },
   {
     "last":"Webb",
     "first":"Jim",
     "party":"dem",
-    "image":"webb",
-    "url":"https://www.webb2016.com"
+    "code":"webb",
+    "url":"https://www.webb2016.com",
+    "default": false
   }
 ]

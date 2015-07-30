@@ -367,7 +367,7 @@ main {
     content: attr(data-candidate-name);
     position: absolute;
     display: block;
-    bottom: -50%; }
+    top: 100%; }
 
 footer {
   border-top: 1px solid #959EA5; }
@@ -395,7 +395,8 @@ footer {
   position: relative;
   display: block;
   float: left;
-  overflow: auto; }
+  overflow: auto;
+  cursor: pointer; }
   input:checked ~ .candidate-label:before {
     position: absolute;
     display: inline-block;

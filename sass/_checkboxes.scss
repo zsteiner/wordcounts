@@ -33,6 +33,7 @@
     display: block;
     float: left;
     overflow: auto;
+    cursor: pointer;
     
     input:checked ~ & {
         &:before {

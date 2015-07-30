@@ -10,4 +10,4 @@ $black: darken($default, 10%);
 $gutter: modular-scale(1, 1rem, $golden) !default;
 $column: modular-scale(3, 1rem, $golden) !default;
 
-$mobile: new-breakpoint(max-width 500px 12);
+$mobile: new-breakpoint(max-width 770px 12);
