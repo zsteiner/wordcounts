@@ -1,0 +1,144 @@
+.selected-candidates {
+    padding: 0 spacer(1);
+    margin-bottom: spacer(10);
+    overflow: auto;
+    
+    @include media($mobile) {
+        padding: 0 spacer(.5);
+    }    
+    
+    li {
+        margin-bottom: spacer(1);
+        padding: spacer(.5) 0 spacer(1); 
+        position: relative;
+        overflow: auto;
+        float: left;
+        @include span-columns(6);
+        @include omega(2n);
+        display: flex;
+        
+        &:not(:last-of-type):not(:nth-last-of-type(2)) {
+            border-bottom: 1px solid lighten($info, 25%);        
+        }
+        
+        &:nth-last-of-type(2) {
+            @include media($small) {
+                border-bottom: 1px solid lighten($info, 25%);        
+            }
+        }
+        
+        @include media($small) {
+          @include span-columns(12);  
+          @include omega;          
+        }
+    }
+    
+    .candidate-info, .candidate-image {
+        float: left;
+    }
+    
+    .candidate-image {
+        height: 5em;
+        width: 5em;
+        margin-right: spacer(.75);
+        flex: none;
+        border-radius: .25em .25em 0 0;        
+ 
+         @include media($small) {
+            height: 3em;
+            width: 3em; 
+            float: left;       
+        }
+    }
+    
+    .party {
+        font-size: .875rem;
+        margin-left: .3em;
+    }
+    
+    .candidate-info {
+        font-size: .875rem;
+        line-height: 1.25;
+        float: left;
+        flex: 1 1 auto;
+        
+        @include media($small) {
+            max-width: 70%;
+        }
+    }
+    
+    .candidate-name {
+        font-size: 1.25rem;
+        margin-bottom: spacer(.5);        
+
+        @include media($small) {
+            font-size: 1rem;
+        }
+
+
+        .party {
+            position: relative;
+            top: -.125em;
+
+            @include media($small) {
+                font-size: .75rem;
+            }            
+        }
+    }
+    
+    .block {
+        display: block;
+    }
+    
+    .icon {
+        font-size: 1.25rem;
+        top: .125rem;
+            margin-bottom: spacer(.25);
+    }
+    
+    .candidate-number  {
+        margin-bottom: spacer(.25);
+        color: $info;
+        padding: 0 spacer(.5);
+        
+        .number {
+            font-size: 1.25rem;
+            display: block;
+            color: $default;
+        }
+        
+        @include span-columns(4);
+
+        @include media($small) {
+          @include span-columns(6);  
+          @include omega;
+          font-size: .75rem;
+        }
+    }
+    
+    .candidate-site {
+        @include span-columns(4);
+        padding: 0 spacer(.5);
+        margin-bottom: spacer(.25);
+        
+        .block {
+            @include media($small) {
+                display: inline-block;
+            }
+            
+            .icon {
+                @include media($small) {
+                    font-size: 1rem;
+                    top: .5em;
+                    margin-right: .3em;
+                }
+            }
+        }
+        
+        @include media($small) {
+          @include span-columns(12);
+          @include omega;            
+        }
+    }
+}
+@import 'chart-legend';

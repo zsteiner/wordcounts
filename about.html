@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>campaign word counts</title>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="../global/css/c3.min.css" type="text/css" media="all">
+		<link rel="stylesheet" href="../global/css/portfolio.css" type="text/css" media="all">
+		<link rel="stylesheet" href="css/wordcounts.css" type="text/css" media="all">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+		<script src="../global/scripts/jquery.mask.min.js"></script>
+		<script src="../global/scripts/c3.min.js"></script>
+		<script src="../global/scripts/iscroll.js"></script>
+	</head>
+	<body>
+        <svg style="position: absolute; width: 0; height: 0;" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+        <symbol id="icon-arrow_back" viewBox="0 0 1024 1024">
+        	<title>arrow_back</title>
+        	<path class="path1" d="M854 470v84h-520l238 240-60 60-342-342 342-342 60 60-238 240h520z"></path>
+        </symbol>
+        <symbol id="icon-help" viewBox="0 0 1024 1024">
+        	<title>help</title>
+        	<path class="path1" d="M642 480q40-40 40-96 0-70-50-120t-120-50-120 50-50 120h84q0-34 26-60t60-26 60 26 26 60-26 60l-52 54q-50 54-50 120v22h84q0-66 50-120zM554 810v-84h-84v84h84zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125z"></path>
+        </symbol>
+        </defs>
+        </svg>
+		<div class="page-wrap">
+            <input type="checkbox" id="toggle1" class="checkbox-toggle">
+    		<header>	
+        		<label class="menu-button" for="toggle1"><span class="menu-toggle"></span></label>
+                <h1>campaign word counts</h1>
+            </header>
+            <div class="main-content">  
+                <main role="main" class="alone">
+                        	<section>
+                            	<a href="index.html" class="back-link"><svg class="icon icon-arrow_back"><use xlink:href="#icon-arrow_back"></use></svg> back to visualization</a>
+                            	<h2>About campaign word counts</h2>   
+                            	<p>Jul 30, 2015</p>
+                            	<p>Back in olden days of 2008, while working on a conference submission, I wrote a <a href="http://zachsteiner.com/2008/09/presidential-word-counts/">blog post</a> about word counts on campaign policy statements. I noticed there was a huge range of ink spilled on various issues between the two candidates at the time. I was otherwise occupied during the 2012 election (dissertation, moving, etc.) to do a follow up, but 2016 is proving to be much more interesting election cycle. There is a huge field of very diverse candidates ranging from experienced politicians to relative unknowns. I decided to expand the concept as a data visualization. As a comparison, 2008 versions of McCain and Obama are included as reference. Immediately noticeable is the fact that many candidates have a lot written already on issues, whereas quite a few have no policy/issue offerings on their website. This does not seem to be a partisan divide; there are verbose and laconic candidates from both parties. Granted this is still early in the election cycle and many of the campaigns are still nascent. I will update the underlying data in a few months as candidates join, leave, or update their sites. My methodology is simple I copy and pasted the pages and tallied the words.</p>
+                            	<p>You will see all of the current candidates on the left sidebar. You can toggle as many candidates for comparisons. The buttons below the chart allow you to switch between word counts per issue, total issues covered, and average words overall. As for the issues, I kept the same categories from 2008. Except, I removed Iraq as an issue and added the environment. Also, I noticed that every candidate, whether they had policy information or not, devoted a section of their site to biography. I included word counts for those as well.</p>
+                            	<h5>The Issues</h5>
+                            	<ul class="list-bullets">    
+                                    <li>Economy</li>
+                                    <li>Education</li>
+                                    <li>Energy</li>
+                                    <li>Foreign Policy</li>
+                                    <li>Health Care</li>
+                                    <li>Technology</li>
+                                    <li>Social Issues</li>
+                                    <li>Environment</li>
+                                    <li>Biography</li>                            	
+                            	</ul>
+                        	</section>
+                        	<section>   
+                            	<h5>Notes</h5>
+                                <p>8 candidates have nothing written about issues or policy positions.</p>
+                                
+                                <p>Clinton covers Policy in “Four Fights” section. Economy is “Building an economy for tomorrow”. Foreign Policy is covered in “Defending America and our core values.”</p>
+                                
+                                <p>Christie has four PDF policy papers. “Entitlement Reform” is mainly about Medicare and Medicaid so I included it in Health Care, but it could also be included under Economy. Christie about section is a video with photo collage with captions.</p>
+                                
+                                <p>Marco Rubio’s impressive word count for Foreign Policy comes from a series of issue articles on his site ranging from “Cuba”, “Iran”, “Iran, Part 2”,  “Europe”, “Israel”, and “Defense Spending”.</p>
+                                
+                                <p>Santorum has not officially released his economic plan as of the end of July.</p>
+                                
+                                <p>For Jim Webb, I combined “Economic Fairness” and “National Infrastructure” for economy.</p>
+                        	</section>
+                </main>
+            </div>
+		</div>
+		<footer> 
+    		Copyright 2015 <a href="http://zachsteiner.com">Zachary Steiner</a>
+		</footer>
+    </body>
+</html>

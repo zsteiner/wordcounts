@@ -7,8 +7,9 @@
 
 @import 'iscroll';
 
-$height: 8rem;
+$height: 7rem;
 $height-offset: $height / 2;
+$small: new-breakpoint(max-width 950px 12);
 
 @import 'menu-button';
 @import 'sidebar';
@@ -21,10 +22,27 @@ $height-offset: $height / 2;
 
 header {
     padding: spacer(1);
-    height: 5rem;
+    height: 4rem;
     border-bottom: 1px solid $info;
     
+    h1 {
+        margin: 0;
+        font-size: 2rem;
+
+        @include media($mobile) {
+            font-size: 1.25rem;
+            display: inline-block;
+        }
+        
+        &:before {
+            content: "\2605";
+            color: $alert;
+            margin-right: .3em;
+        }
+    }
+    
     @include media($mobile) {
+        padding: spacer(1) spacer(.5);
         height: 4rem;
     }
 }
@@ -35,97 +53,162 @@ header {
 }
 
 main {
+    position: relative;
     padding: spacer(1);
     flex: 1 1 auto;
-}
-
-.candidate-list {
     
-    h1 {
-        font-size: 1.5em;
+    @include media($mobile) {
+        height: 100vh;
+    }    
+    
+    h2 {
+        @include media($mobile) {
+            font-size: 1.5rem;
+        }    
     }
     
+    &.alone {
+        height: inherit;
+    }
+}
+
+section {
+    padding: 0 spacer(1);
+
+    @include media($mobile) {
+        padding: 0 spacer(.5);
+    }
     
+    p {
+        font-size: .875rem;
+        line-height: 1.25;
+    }
+    
+    &:first-child {
+        margin-top: spacer(1);
+    }
+    
+    & + & {
+        //margin: 0;
+    }
+}
+
+
+.candidate-list {
     li {
         overflow: auto;
-        margin-bottom: spacer(.5);
+        margin-bottom: spacer(.75);
         padding-right: spacer(.5);
         cursor: pointer;
     }
 }
 
 .candidate-image {
-    height: 3em;
-    width: 3em;
-    margin-bottom: spacer(.5);
-    border-radius: .25em;
-    margin-right: spacer(.5);
+    border-radius: 0px .25em .25em 0px;
 }
 
 .candidate-name {
-    margin-bottom: spacer(.25);
+    font-size: 1rem;
     overflow: auto;
-    line-height: 1.25;
 }
 
 .candidate-site {
-    font-size: .75rem;
+    font-size: .875rem;
     line-height: 1.25;
 }
 
 .party {
     display: inline-block;
-    color: white;
-    padding: .25em .5em;
-    margin-bottom: spacer(.25);
-    float: left;
-    line-height: 1.25;
-    border-radius: .25em;
-    font-size: 1rem;
-    font-weight: 400;
-    margin-right: .5em;
+    font-size: .75rem;
     
     &.dem {
-        background: $secondary;
+        color: darken($secondary, 30%);
         
         &:before {
-            content: "D";
+            content: "\2605 \0020 Democrat";
         }
     }
 
     &.gop {
-        background: $alert;
+        color: darken($alert, 30%);
         
         &:before {
-            content: "R";
+            content: "\2605 \0020 Republican";
         }
     }
 }
 
 .issue-list {
     li {
-        margin-bottom: spacer(1);
-        font-size: 1.25em;
+        margin-bottom: spacer(.5);
+        font-size: 1em;
     }
 }
 
-.selected-candidates {
-    li {
-        display: inline-block;
-        margin-right: spacer(.5);
-        position: relative;
-    
-        &:hover:after {
-            content: attr(data-candidate-name);
-            position: absolute;
-            display: block;
-            top: 100%;
-        }
-    }
-}
 
 footer {
     border-top: 1px solid $info;
 }
 
+#chart {
+    @include media($mobile) {
+        display: none;
+    }
+}
+
+@import 'selected-candidates';
 @import 'checkboxes';
+
+.c3 svg {
+    font-family: $font-stack-sans-serif;
+    font-size: .5em;
+}
+
+.chart-buttons {
+    margin: spacer(1) 0;
+    text-align: right;
+    
+    li {
+        display: inline-block;
+        
+        &:not(:last-child) {
+            margin-right: 1em;
+        }
+    }
+}
+
+button {
+    background-color: white;
+    border: 1px solid $secondary;
+    padding: spacer(.25) spacer(.5);
+    font-size: 1.25em;
+    line-height: 1.25;
+    color: $secondary;
+    border-radius: .15em;
+    
+    &:hover {
+        background-color: lighten($secondary, 35%);
+    }
+    
+    &.is-selected {
+        background-color: $secondary;
+        color: white;
+    }
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: spacer(1.5);
+}
+
+.list-bullets {
+    margin: spacer(1) 0;
+    padding-left: 2em;
+    font-size: .875rem;
+    list-style: disc;
+    line-height: 1.25;
+}
+
+p + h5 {
+    margin-top: spacer(1);
+}

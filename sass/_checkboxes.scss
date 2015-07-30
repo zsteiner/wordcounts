@@ -21,7 +21,7 @@
         content: "";
     }
     
-    input:checked ~ & {
+    input:checked + & {
         &:before {
             background-image: url("../images/icons/check_box.svg");
         }
@@ -32,26 +32,39 @@
     position: relative;
     display: block;
     float: left;
+    margin-right: spacer(.5);
+    height: 2em;
+    border-radius: .25em;
+    padding:  0 spacer(.25);
     overflow: auto;
     cursor: pointer;
+    background-color: lighten($info, 25%);
     
-    input:checked ~ & {
+    .candidate-image {
+        height: 2em;
+        width: 2em;
+        position: relative;
+        right: -.25em;
+    }
+
+     &:before {
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        margin: 0 spacer(.25) spacer(.5);
+        line-height: 1;
+        background-image: url("../images/icons/check_box_outline_blank.svg");
+        background-size: contain;
+        content: " ";
+        z-index: 10;
+    }
+
+    
+    input:checked + & {
+        background-color: $secondary;
+        
         &:before {
-            position: absolute;
-            display: inline-block;
-            width: 2em;
-            height: 2em;
-            top: .5em;
-            left: .5em;
-            background-image: url("../images/icons/check.svg");
-            background-size: contain;
-            content: " ";
-            z-index: 10;
-        }
-        .candidate-image {
-            filter: blur(1px);
-            opacity: .7;
+            background-image: url("../images/icons/check-white.svg");
         }
     }
 }
-

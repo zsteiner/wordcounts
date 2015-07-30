@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Presidential Wordcounts</title>
+		<title>campaign word counts</title>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
 		<link rel="stylesheet" href="../global/css/c3.min.css" type="text/css" media="all">
 		<link rel="stylesheet" href="../global/css/portfolio.css" type="text/css" media="all">
 		<link rel="stylesheet" href="css/wordcounts.css" type="text/css" media="all">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+		<script src="../global/scripts/jquery.mask.min.js"></script>
 		<script src="../global/scripts/c3.min.js"></script>
 		<script src="../global/scripts/iscroll.js"></script>
 	</head>
 	<body>
+        <svg style="position: absolute; width: 0; height: 0;" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+        <symbol id="icon-info" viewBox="0 0 1024 1024">
+        	<title>info</title>
+        	<path class="path1" d="M554 384v-86h-84v86h84zM554 726v-256h-84v256h84zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125z"></path>
+        </symbol>
+        <symbol id="icon-help" viewBox="0 0 1024 1024">
+        	<title>help</title>
+        	<path class="path1" d="M642 480q40-40 40-96 0-70-50-120t-120-50-120 50-50 120h84q0-34 26-60t60-26 60 26 26 60-26 60l-52 54q-50 54-50 120v22h84q0-66 50-120zM554 810v-84h-84v84h84zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125z"></path>
+        </symbol>
+        </defs>
+        </svg>
 		<div class="page-wrap">
             <input type="checkbox" id="toggle1" class="checkbox-toggle">
     		<header>	
@@ -29,55 +45,67 @@
                         	</div>
                         </div>
                     </div>
-                    <h2>issues</h2>
-                    <div class="scroll-area">   
-                        <div class="scroll-wrapper" id="issues">
-                        	<div class="scroll-content">
-                                 <ul class="issue-list checkbox-list">
-                                    <li><input type="checkbox" id="issue1" checked><label class="checkbox" for="issue1" data-issue="Economy">Economy</label></li>
-                                    <li><input type="checkbox" id="issue2" checked><label class="checkbox"  for="issue2" data-issue="Education">Education</label></li>
-                                    <li><input type="checkbox" id="issue3" checked><label class="checkbox"  for="issue3" data-issue="Energy">Energy</label></li>
-                                    <li><input type="checkbox" id="issue4" checked><label class="checkbox" for="issue4" data-issue="Foreign Policy">Foreign Policy</label></li>
-                                    <li><input type="checkbox" id="issue5" checked><label class="checkbox" for="issue5" data-issue="Health Care">Health Care</label></li>
-                                    <li><input type="checkbox" id="issue7" checked><label class="checkbox" for="issue7" data-issue="Technology">Technology</label></li>
-                                    <li><input type="checkbox" id="issue8" checked><label class="checkbox" for="issue8" data-issue="Social Issues">Social Issues</label></li>
-                                    <li><input type="checkbox" id="issue9" checked><label class="checkbox" for="issue9" data-issue="Environment">Environment</label></li>
-                                    <li><input type="checkbox" id="issue10" checked><label class="checkbox" for="issue10" data-issue="Biography">Biography</label></li>
-                                </ul>
-                        	</div>
-                        </div>
-                    </div>
                 </aside>
                 <main role="main">
-                    <h2>Word Counts on Major Issues</h2>
-                    <div class="chart" id="chart"> 
-                        
+                    <div class="scroll-wrapper" id="main">
+                    	<div class="scroll-content">
+                        	<section>
+                            	<a href="about.html"><h5><svg class="icon icon-arrow_back"><use xlink:href="#icon-help"></use></svg> about campaign word counts</h5></a>
+                            	<p>Data is current as of Jul 29, 2015.</p>
+                        	</section>
+                        	<section>   
+                                <div class="chart" id="issue-chart"></div>
+                                <div class="chart is-hidden" id="count-chart"></div>
+                                <div class="chart is-hidden" id="average-chart"></div> 
+                                <ul class="chart-buttons">
+                                    <li><button class="is-selected" id="issue">word counts</button></li>
+                                    <li><button id="count">issues</button></li>
+                                    <li><button id="average">average words</button></li>
+                                </ul>
+                        	</section>
+                            <section>
+                                <ul class="selected-candidates" id="selected-candidates"></ul>
+                            </section>                                
+                    	</div>
                     </div>
-                    <h5>Selected Candidates</h5>
-                    <ul class="selected-candidates" id="selected-candidates"></ul>
                 </main>
             </div>
 		</div>
 		<footer> 
-    		footer
+    		Copyright 2015 <a href="http://zachsteiner.com">Zachary Steiner</a>
 		</footer>
 		<script src="scripts/chart.js"></script>
         <script>    
-            var myScroll;
+            var scroll1;
+            var scroll2;
+            var scroll3;
             
             function candidatesScroll() {
-            	myScroll = new IScroll('#candidates', {
+            	scroll1 = new IScroll('#candidates', {
             		scrollbars: true,
             		mouseWheel: true,
             		interactiveScrollbars: true,
             		shrinkScrollbars: 'scale',
             		click: false,
-            		fadeScrollbars: false
+            		fadeScrollbars: false,
+            		preventDefaultException: { tagName: 'label' }
             	});
             }
 
             function issuesScroll() {
-            	myScroll = new IScroll('#issues', {
+            	scroll2 = new IScroll('#issues', {
+            		scrollbars: true,
+            		mouseWheel: true,
+            		interactiveScrollbars: true,
+            		shrinkScrollbars: 'scale',
+            		click: false,
+            		fadeScrollbars: false,
+            		preventDefaultException: { tagName: 'label' }
+            	});
+            }
+
+            function mainScroll() {
+            	scroll3 = new IScroll('#main', {
             		scrollbars: true,
             		mouseWheel: true,
             		interactiveScrollbars: true,
@@ -91,9 +119,12 @@
             
             setTimeout(function(){
                 candidatesScroll();
-                issuesScroll();
+                //issuesScroll();
+                mainScroll();
             },1000);            
             
+            
+            $('.number').mask("000,000,000", {reverse: true});
         </script>	
     </body>
 </html>

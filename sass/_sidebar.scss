@@ -1,10 +1,10 @@
 aside {
     position: relative;
     overflow: hidden;
-    min-width: 18em;
-    max-width: 25em;
+    width: 16em;
     padding: 0  0  0 spacer(1);
-    width: 33%;
+    //width: 33%;
+    flex: none;
     background-color: white;
     transition: all .6s linear;
     height: calc(100vh - #{$height});
@@ -21,15 +21,15 @@ aside {
 
     .scroll-area {
         position: relative;
-        height: calc(60% - #{$height-offset});        
+        height: calc(100% - #{$height-offset});        
         
-        &:last-of-type {
-            height: calc(40% - #{$height-offset});    
-        }
+        //&:last-of-type {
+            //height: calc(40% - #{$height-offset});    
+        //}
     }
     
     h2 {
-        padding: spacer(1) 0 spacer(.5);
+        padding: spacer(.5) 0 spacer(.5);
         margin: 0;
         font-size: 2rem;
     }
