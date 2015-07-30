@@ -442,7 +442,7 @@ footer {
         float: left; } }
   .selected-candidates .party {
     font-size: .875rem;
-    margin-left: .3em; }
+    margin-left: .75em; }
   .selected-candidates .candidate-info {
     font-size: .875rem;
     line-height: 1.25;
@@ -621,6 +621,9 @@ footer {
     display: inline-block; }
     .chart-buttons li:not(:last-child) {
       margin-right: 1em; }
+  @media screen and (max-width: 770px) {
+    .chart-buttons {
+      display: none; } }
 
 button {
   background-color: white;

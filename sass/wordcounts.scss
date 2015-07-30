@@ -175,6 +175,10 @@ footer {
             margin-right: 1em;
         }
     }
+    
+    @include media($mobile) {
+        display: none;
+    }
 }
 
 button {
