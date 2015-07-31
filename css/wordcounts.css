@@ -248,7 +248,7 @@ aside {
   background-color: white;
   -webkit-transition: all .6s linear;
           transition: all .6s linear;
-  height: calc(100vh - 7rem);
+  height: calc(100vh - (7rem));
   border-right: 1px solid #959EA5; }
   @media screen and (max-width: 770px) {
     aside {
@@ -257,14 +257,18 @@ aside {
       width: 80%;
       max-width: 16em;
       height: calc(100vh - 7rem + 3rem);
-      left: -150%; } }
+      left: -18em; } }
   aside .scroll-area {
     position: relative;
-    height: calc(100% - 3.5rem); }
+    height: calc(100% - 5rem); }
   aside h2 {
-    padding: 0.5rem 0 0.5rem;
+    padding: 0.5rem 0 0.25rem;
     margin: 0;
-    font-size: 2rem; }
+    font-size: 1.75rem; }
+    aside h2 + div {
+      color: #959EA5;
+      font-size: .875rem;
+      margin-bottom: 0.75rem; }
 
 .menu-button {
   display: none;
@@ -346,11 +350,16 @@ section {
   section:first-child {
     margin-top: 1rem; }
 
-.candidate-list li {
-  overflow: auto;
-  margin-bottom: 0.75rem;
-  padding-right: 0.5rem;
-  cursor: pointer; }
+.candidate-list {
+  margin-bottom: 1.5rem; }
+  .candidate-list li {
+    overflow: auto;
+    margin-bottom: 0.75rem;
+    padding-right: 0.5rem;
+    cursor: pointer; }
+  @media screen and (max-width: 770px) {
+    .candidate-list {
+      margin-bottom: 6rem; } }
 
 .candidate-image {
   border-radius: 0px .25em .25em 0px; }

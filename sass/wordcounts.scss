@@ -8,7 +8,7 @@
 @import 'iscroll';
 
 $height: 7rem;
-$height-offset: $height / 2;
+$height-offset: $height - 2rem;
 $small: new-breakpoint(max-width 950px 12);
 $phone: new-breakpoint(max-width 600px 12);
 
@@ -63,7 +63,6 @@ header {
 }
 
 main {
-    
     position: relative;
     
     h2 {
@@ -100,11 +99,17 @@ section {
 
 
 .candidate-list {
+    margin-bottom: spacer(1.5);
+
     li {
         overflow: auto;
         margin-bottom: spacer(.75);
         padding-right: spacer(.5);
         cursor: pointer;
+    }
+    
+    @include media($mobile) {
+        margin-bottom: spacer(6);
     }
 }
 

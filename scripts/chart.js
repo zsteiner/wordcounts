@@ -5,6 +5,7 @@ var selectedCandidates = [];
 
 var scrollMain;
 var scrollCandidates;
+var isMobile = false;
 
 function candidatesScroll() {
 	scrollCandidates = new IScroll('#candidates', {
@@ -24,15 +25,22 @@ function mainScroll() {
 		interactiveScrollbars: true,
 		shrinkScrollbars: 'scale',
 		click: false,
-		fadeScrollbars: false
+		fadeScrollbars: false,
+		preventDefaultException: { tagName: /^(INPUT|TEXTAREA|BUTTON|SELECT|LABEL|A)$/ }
 	});
 }
 
-candidatesScroll();
-mainScroll();
+function mobileDetect() {
 
-document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+    if( $('.menu-button').css('display')==='inline-block') {
+        isMobile = true;       
+    }
+    // now i can use is_mobile to run javascript conditionally
 
+    if (isMobile === true) {
+        $('#toggle1').click();
+    }    
+}
 
 function issueChart() {
     chart = c3.generate({
@@ -70,7 +78,6 @@ function issueChart() {
         }        
     });
 }
-
 
 function averageChart() {
     chartAverage = c3.generate({
@@ -158,6 +165,12 @@ function defaultCandidates() {
     $('#candidate-list [data-default="true"] input').click();
 }
 
+candidatesScroll();
+mainScroll();
+
+document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+
+
 function createCandidateList(obj) {
     var candidateList = document.getElementById('candidate-list');
     var selectedCandidateList = document.getElementById('selected-candidates');
@@ -209,7 +222,6 @@ $.getJSON('data/candidates.js').done(function(data) {
     error = err;
 });
 
-
 $('#issue').click(function(){
    $('.chart-buttons button').removeClass('is-selected');
    $(this).addClass('is-selected');
@@ -239,3 +251,5 @@ $('#average').click(function(){
 });
 
 $('.number').mask("000,000,000", {reverse: true});
+
+setTimeout(mobileDetect, 3000);

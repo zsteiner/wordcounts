@@ -7,7 +7,7 @@ aside {
     flex: none;
     background-color: white;
     transition: all .6s linear;
-    height: calc(100vh - #{$height});
+    height: calc(100vh - (#{$height}));
     border-right: 1px solid $info;
 
     @include media($mobile) {
@@ -16,7 +16,7 @@ aside {
         width: 80%;
         max-width: 16em;
         height: calc(100vh - #{$height} + 3rem);
-        left: -150%;
+        left: -18em;
     }
 
     .scroll-area {
@@ -29,9 +29,15 @@ aside {
     }
     
     h2 {
-        padding: spacer(.5) 0 spacer(.5);
+        padding: spacer(.5) 0 spacer(.25);
         margin: 0;
-        font-size: 2rem;
+        font-size: 1.75rem;
+        
+        & + div {
+           color: $info;
+           font-size: .875rem;
+           margin-bottom: spacer(.75); 
+        }
     }
 }
 
