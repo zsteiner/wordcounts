@@ -10,6 +10,7 @@
 $height: 7rem;
 $height-offset: $height / 2;
 $small: new-breakpoint(max-width 950px 12);
+$phone: new-breakpoint(max-width 600px 12);
 
 @import 'menu-button';
 @import 'sidebar';
@@ -170,13 +171,8 @@ footer {
 
 .chart-buttons {
     margin: spacer(1) 0;
-    text-align: right;
+    text-align: center;
 
-    @include media($mobile) {
-        text-align: center;            
-    }
-
-    
     li {
         display: inline-block;
         
@@ -192,7 +188,7 @@ footer {
 
     button {
         @include media($mobile) {
-            font-size: 1rem;            
+            font-size: .875rem;            
         }
     }
 }

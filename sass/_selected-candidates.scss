@@ -27,7 +27,7 @@
             }
         }
         
-        @include media($small) {
+        @include media($phone) {
           @include span-columns(12);  
           @include omega;          
         }
@@ -145,7 +145,7 @@
         
         @include span-columns(4);
 
-        @include media($small) {
+        @include media($mobile) {
           @include span-columns(6);  
           @include omega;
           font-size: .75rem;

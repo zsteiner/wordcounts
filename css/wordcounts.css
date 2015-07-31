@@ -254,8 +254,8 @@ aside {
     aside {
       position: absolute;
       z-index: 99999;
-      max-width: 100%;
       width: 80%;
+      max-width: 16em;
       height: calc(100vh - 7rem + 3rem);
       left: -150%; } }
   aside .scroll-area {
@@ -414,7 +414,7 @@ footer {
     @media screen and (max-width: 950px) {
       .selected-candidates li:nth-last-of-type(2) {
         border-bottom: 1px solid #dadde0; } }
-    @media screen and (max-width: 950px) {
+    @media screen and (max-width: 600px) {
       .selected-candidates li {
         float: left;
         display: block;
@@ -510,7 +510,7 @@ footer {
       color: #3A3B3D; }
     .selected-candidates .candidate-number:last-child {
       margin-right: 0; }
-    @media screen and (max-width: 950px) {
+    @media screen and (max-width: 770px) {
       .selected-candidates .candidate-number {
         float: left;
         display: block;
@@ -640,10 +640,7 @@ footer {
 
 .chart-buttons {
   margin: 1rem 0;
-  text-align: right; }
-  @media screen and (max-width: 770px) {
-    .chart-buttons {
-      text-align: center; } }
+  text-align: center; }
   .chart-buttons li {
     display: inline-block; }
     .chart-buttons li:not(:last-child) {
@@ -654,7 +651,7 @@ footer {
           margin-bottom: 0.5rem; } }
   @media screen and (max-width: 770px) {
     .chart-buttons button {
-      font-size: 1rem; } }
+      font-size: .875rem; } }
 
 button {
   padding: 0.25rem 0.5rem;

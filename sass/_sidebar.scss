@@ -13,8 +13,8 @@ aside {
     @include media($mobile) {
         position: absolute;
         z-index: 99999;
-        max-width: 100%;
         width: 80%;
+        max-width: 16em;
         height: calc(100vh - #{$height} + 3rem);
         left: -150%;
     }
