@@ -15,9 +15,9 @@ $small: new-breakpoint(max-width 950px 12);
 @import 'sidebar';
 
 .chart {
-    margin-bottom: spacer(2);
+    margin-bottom: spacer(1);
     width: 100%;
-    height: 16em;
+    height: 24em;
 }
 
 header {
@@ -51,14 +51,19 @@ header {
     width: 100%;
 }
 
-main {
-    
-    @include media($mobile) {
-        height: 100vh;
-    }
-    position: relative;
+.main-scroll-area {
+    position: relative;        
     padding: spacer(1);
     flex: 1 1 auto;    
+
+    @include media($mobile) {
+        height: 100vh;
+    }    
+}
+
+main {
+    
+    position: relative;
     
     h2 {
         @include media($mobile) {
@@ -149,9 +154,9 @@ footer {
     border-top: 1px solid $info;
 }
 
-#chart {
+.chart {
     @include media($mobile) {
-        display: none;
+        //display: none;
     }
 }
 
@@ -159,23 +164,35 @@ footer {
 @import 'checkboxes';
 
 .c3 svg {
-    font-size: .5em;
+    font-size: .75em;
     font-family: $font-stack-sans-serif;
 }
 
 .chart-buttons {
-    
-    @include media($mobile) {
-        display: none;
-    }
     margin: spacer(1) 0;
     text-align: right;
+
+    @include media($mobile) {
+        text-align: center;            
+    }
+
     
     li {
         display: inline-block;
         
         &:not(:last-child) {
-            margin-right: 1em;
+            margin-right: spacer(1);
+
+            @include media($mobile) {
+                margin-right: spacer(.25);
+                margin-bottom: spacer(.5);             
+            }
+        }
+    }
+
+    button {
+        @include media($mobile) {
+            font-size: 1rem;            
         }
     }
 }
@@ -215,4 +232,10 @@ button {
 
 p + h5 {
     margin-top: spacer(1);
+}
+
+a > h5 {
+    @include media($mobile) {
+        font-size: 1.2rem;
+    }
 }

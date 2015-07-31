@@ -4,7 +4,7 @@
     
     @include media($mobile) {
         padding: 0 spacer(.5);
-        margin-bottom: spacer(10);
+        margin-bottom: spacer(8);
     }    
     
     li {
@@ -45,6 +45,14 @@
             color: white;
             text-shadow: 1px 1px 1px black;
             text-align: center;
+
+            @include media($small) {
+                font-size: .875rem;
+                top: 4.5rem;
+                width: 3rem;
+                color: black;
+                text-shadow: none;
+            }
         }
     }
 

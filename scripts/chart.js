@@ -3,9 +3,43 @@ var chart;
 var candidates = [];
 var selectedCandidates = [];
 
+var scrollMain;
+var scrollCandidates;
+
+function candidatesScroll() {
+	scrollCandidates = new IScroll('#candidates', {
+		scrollbars: true,
+		mouseWheel: true,
+		interactiveScrollbars: true,
+		shrinkScrollbars: 'scale',
+		click: false,
+		fadeScrollbars: false,
+		preventDefaultException: { tagName: /^(INPUT|TEXTAREA|BUTTON|SELECT|LABEL)$/ }
+	});
+}
+function mainScroll() {
+	scrollMain = new IScroll('#main', {
+		scrollbars: true,
+		mouseWheel: true,
+		interactiveScrollbars: true,
+		shrinkScrollbars: 'scale',
+		click: false,
+		fadeScrollbars: false
+	});
+}
+
+candidatesScroll();
+mainScroll();
+
+document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+
+
 function issueChart() {
     chart = c3.generate({
         bindto: '#issue-chart',
+        padding: {
+          right: 24,  
+        },
         data: {
             url: 'data/issues.json',
             mimeType: 'json',
@@ -16,14 +50,16 @@ function issueChart() {
             }
         },
         axis: {
+            rotated: true,
             x: {
                 type: 'category',
-                height: 40,
+                height: 40
             },
             
             y: {
                 tick: {
-                  format: d3.format(",")        
+                  format: d3.format(",f"),
+                  count: 3        
                 }              
             }
         },
@@ -35,9 +71,13 @@ function issueChart() {
     });
 }
 
+
 function averageChart() {
     chartAverage = c3.generate({
         bindto: '#average-chart',
+        padding: {
+          right: 24,  
+        },
         data: {
             url: 'data/average.json',
             mimeType: 'json',
@@ -48,14 +88,22 @@ function averageChart() {
             }
         },
         axis: {
+            rotated: true,
             x: {
                 type: 'category',
                 height: 40
+            },
+            
+            y: {
+                tick: {
+                  format: d3.format(",f"),
+                  count: 3        
+                }              
             }
         },
         bar: {
           width: {
-            ratio: 0.5
+            height: 0.5
           }
         }        
     });
@@ -64,6 +112,9 @@ function averageChart() {
 function countChart() {
     chartCount = c3.generate({
         bindto: '#count-chart',
+        padding: {
+          right: 24,  
+        },
         data: {
             url: 'data/count.json',
             mimeType: 'json',
@@ -74,9 +125,17 @@ function countChart() {
             }
         },
         axis: {
+            rotated: true,
             x: {
                 type: 'category',
                 height: 40
+            },
+            
+            y: {
+                tick: {
+                  format: d3.format(",f"),
+                  count: 3        
+                }              
             }
         },
         bar: {
@@ -88,11 +147,11 @@ function countChart() {
 );
 }
 
-
 function makeCharts() {
     issueChart();
     countChart();
     averageChart();
+    //scrollMain.refresh();
 }
 
 function defaultCandidates() {
@@ -132,11 +191,13 @@ function createCandidateList(obj) {
                 selectedCandidates.splice(index, 1);
             }
             //console.log(selectedCandidates); 
-            mainScroll();
+            scrollMain.refresh();
             makeCharts();
         });
+
     });
 
+    scrollCandidates.refresh();    
     makeCharts();
     defaultCandidates();
 }
@@ -148,6 +209,7 @@ $.getJSON('data/candidates.js').done(function(data) {
     error = err;
 });
 
+
 $('#issue').click(function(){
    $('.chart-buttons button').removeClass('is-selected');
    $(this).addClass('is-selected');
@@ -155,7 +217,7 @@ $('#issue').click(function(){
    $('#issue-chart').removeClass('is-hidden').siblings('.chart').addClass('is-hidden');
    
    issueChart();
-   console.log('issue');
+   //console.log('issue');
 });
 
 $('#count').click(function(){
@@ -164,7 +226,7 @@ $('#count').click(function(){
    
    $('#count-chart').removeClass('is-hidden').siblings('.chart').addClass('is-hidden');
     countChart();
-   console.log('count');
+   //console.log('count');
 });
 
 $('#average').click(function(){
@@ -173,5 +235,7 @@ $('#average').click(function(){
    
    $('#average-chart').removeClass('is-hidden').siblings('.chart').addClass('is-hidden');
    averageChart(); 
-   console.log('average');
+   //console.log('average');
 });
+
+$('.number').mask("000,000,000", {reverse: true});

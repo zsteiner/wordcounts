@@ -256,7 +256,7 @@ aside {
       z-index: 99999;
       max-width: 100%;
       width: 80%;
-      height: calc(100vh - 7rem + 2rem);
+      height: calc(100vh - 7rem + 3rem);
       left: -150%; } }
   aside .scroll-area {
     position: relative;
@@ -285,9 +285,9 @@ aside {
   left: 0; }
 
 .chart {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   width: 100%;
-  height: 16em; }
+  height: 24em; }
 
 header {
   padding: 1rem;
@@ -316,7 +316,7 @@ header {
   display: flex;
   width: 100%; }
 
-main {
+.main-scroll-area {
   position: relative;
   padding: 1rem;
   -webkit-box-flex: 1;
@@ -324,8 +324,11 @@ main {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto; }
   @media screen and (max-width: 770px) {
-    main {
+    .main-scroll-area {
       height: 100vh; } }
+
+main {
+  position: relative; }
   @media screen and (max-width: 770px) {
     main h2 {
       font-size: 1.5rem; } }
@@ -379,17 +382,13 @@ section {
 footer {
   border-top: 1px solid #959EA5; }
 
-@media screen and (max-width: 770px) {
-  #chart {
-    display: none; } }
-
 .selected-candidates {
   padding: 0 1rem;
   overflow: auto; }
   @media screen and (max-width: 770px) {
     .selected-candidates {
       padding: 0 0.5rem;
-      margin-bottom: 10rem; } }
+      margin-bottom: 8rem; } }
   .selected-candidates li {
     margin-bottom: 1rem;
     padding: 0.5rem 0 1rem;
@@ -435,6 +434,15 @@ footer {
     color: white;
     text-shadow: 1px 1px 1px black;
     text-align: center; }
+    @media screen and (max-width: 950px) {
+      .selected-candidates [data-candidate-id="Obama"]:before,
+      .selected-candidates [data-candidate-id="McCain"]:before,
+      .selected-candidates [data-candidate-id="Romney"]:before {
+        font-size: .875rem;
+        top: 4.5rem;
+        width: 3rem;
+        color: black;
+        text-shadow: none; } }
   .selected-candidates [data-candidate-id="Obama"]:before,
   .selected-candidates [data-candidate-id="McCain"]:before {
     content: "2008"; }
@@ -627,7 +635,7 @@ footer {
       background-image: url("../images/icons/check-white.svg"); }
 
 .c3 svg {
-  font-size: .5em;
+  font-size: .75em;
   font-family: Work Sans, Helvetica, Arial, sans-serif; }
 
 .chart-buttons {
@@ -635,11 +643,18 @@ footer {
   text-align: right; }
   @media screen and (max-width: 770px) {
     .chart-buttons {
-      display: none; } }
+      text-align: center; } }
   .chart-buttons li {
     display: inline-block; }
     .chart-buttons li:not(:last-child) {
-      margin-right: 1em; }
+      margin-right: 1rem; }
+      @media screen and (max-width: 770px) {
+        .chart-buttons li:not(:last-child) {
+          margin-right: 0.25rem;
+          margin-bottom: 0.5rem; } }
+  @media screen and (max-width: 770px) {
+    .chart-buttons button {
+      font-size: 1rem; } }
 
 button {
   padding: 0.25rem 0.5rem;
@@ -669,3 +684,7 @@ button {
 
 p + h5 {
   margin-top: 1rem; }
+
+@media screen and (max-width: 770px) {
+  a > h5 {
+    font-size: 1.2rem; } }
