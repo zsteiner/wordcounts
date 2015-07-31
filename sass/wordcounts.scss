@@ -29,6 +29,7 @@ header {
     padding: spacer(1);
     height: 4rem;
     border-bottom: 1px solid $info;
+    background-color: white;
     
     h1 {
 
@@ -50,6 +51,7 @@ header {
 .main-content {
     display: flex;
     width: 100%;
+    background-color: white;
 }
 
 .main-scroll-area {
@@ -163,6 +165,7 @@ section {
 
 footer {
     border-top: 1px solid $info;
+    background-color: white;
 }
 
 .chart {
@@ -240,8 +243,12 @@ p + h5 {
     margin-top: spacer(1);
 }
 
-a > h5 {
+.about-link { 
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: spacer(.5);
+    
     @include media($mobile) {
         font-size: 1.2rem;
     }
-}
+} 
