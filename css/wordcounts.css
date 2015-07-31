@@ -349,6 +349,8 @@ section {
     line-height: 1.25; }
   section:first-child {
     margin-top: 1rem; }
+  section:last-of-type {
+    margin-bottom: 2rem; }
 
 .candidate-list {
   margin-bottom: 1.5rem; }
@@ -366,7 +368,8 @@ section {
 
 .candidate-name {
   overflow: auto;
-  font-size: 1rem; }
+  font-size: 1rem;
+  line-height: 1.15; }
 
 .candidate-site {
   font-size: .875rem;
@@ -617,15 +620,15 @@ footer {
   display: block;
   float: left;
   margin-right: 0.5rem;
-  height: 2em;
+  height: 2rem;
   border-radius: .25em;
   padding: 0 0.25rem;
   overflow: auto;
   cursor: pointer;
   background-color: #dadde0; }
   .candidate-label .candidate-image {
-    height: 2em;
-    width: 2em;
+    height: 2rem;
+    width: 2rem;
     position: relative;
     right: -.25em; }
   .candidate-label:before {

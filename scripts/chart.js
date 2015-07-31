@@ -73,7 +73,7 @@ function issueChart() {
         },
         bar: {
           width: {
-            ratio: 0.9
+            ratio: 0.8
           }
         }        
     });

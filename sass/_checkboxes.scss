@@ -29,11 +29,13 @@
 }
 
 .candidate-label {
+    $check-height: 2rem;
+    
     position: relative;
     display: block;
     float: left;
     margin-right: spacer(.5);
-    height: 2em;
+    height:  $check-height;
     border-radius: .25em;
     padding:  0 spacer(.25);
     overflow: auto;
@@ -41,8 +43,8 @@
     background-color: lighten($info, 25%);
     
     .candidate-image {
-        height: 2em;
-        width: 2em;
+        height:  $check-height;
+        width:  $check-height;
         position: relative;
         right: -.25em;
     }

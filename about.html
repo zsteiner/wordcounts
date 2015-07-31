@@ -40,23 +40,26 @@
                             	<a href="index.html" class="back-link"><svg class="icon icon-arrow_back"><use xlink:href="#icon-arrow_back"></use></svg> back to visualization</a>
                             	<h2>About campaign word counts</h2>   
                             	<p>Jul 31, 2015</p>
-                            	<p>Back in the olden days of 2008, while working on a conference submission (and thus very sensitive to word counts), I wrote a <a href="http://zachsteiner.com/2008/09/presidential-word-counts/">blog post</a> about word counts on campaign policy statements. I noticed there was a huge range of ink spilled on various issues between the two candidates at the time. I intended to do a follow up in 2012, but I was otherwise occupied during the 2012 election (dissertation, moving, etc.). However, 2016 is proving to be much more interesting election cycle. There is a huge field of very diverse candidates ranging from experienced politicians to relative unknowns. I decided to expand the concept as a data visualization. As a comparison, 2008 versions of McCain and Obama and 2012 version of Romney (actually late 2011, for fairer comparison to the 2016 crop) are included as reference. Immediately noticeable is the fact that many candidates have a lot written already on issues, whereas eight have no policy/issue offerings on their website. This does not seem to be a partisan divide; there are verbose and laconic candidates from both parties. Granted this is still early in the election cycle and many of the campaigns are still nascent. I will update the underlying data in a few months as candidates join, leave, or update their sites.</p>
+                            	<p>Back in 2008, while working on a conference submission (and thus hypersensitive to word counts), I wrote a <a href="http://zachsteiner.com/2008/09/presidential-word-counts/">blog post</a> about word counts on campaign policy position statements. I noticed there was a huge range of ink spilled on various issues between the two candidates at the time. I intended to do a follow up in 2012, but I was otherwise occupied during that election (dissertation, moving, etc.). However, 2016 is proving to be an interesting election cycle. There is a huge field of very diverse candidates ranging from experienced politicians to relative unknowns. I decided to expand the concept as an interactive data visualization. As a comparison, 2008 McCain and Obama and 2012 Romney (actually late 2011, for fairer comparison to the 2016 crop) are included as reference. Immediately noticeable is the fact that many candidates have a lot written already on issues, whereas eight have no policy/issue offerings on their website. This does not seem to be a partisan divide; there are verbose and laconic candidates from both parties. Granted this is still early in the election cycle and many of the campaigns are still nascent. I suspect policy positions will become more substantive for the two remaining candidates after the primaries, as they were for McCain, Obama, and Romney. I will update the underlying data as candidates join, leave, or update their sites.</p>
                             	
-                            	<p>My methodology is simple: I copied and pasted the pages into a word processor and used the word count feature. For those candidates that offer a summary and a full policy policy paper (typically as a PDF or eBook download), I use the full paper text giving Romney's economic tome an impressive 39,987 length. The number of issues is the count of issues covered, rather than the count of my categories. Averages are for For instance, I include the tax and job issues are under the umbrella of Economy and defense spending or Iran policy get included with Foreign Policy. A lot of disparate issues get lumped into Social Issues&mdash;including criminal justice, 2nd Amendment, voting rights, income inequality, marriage equality, religious liberty, etc.</p>
+                            	<p>My methodology is simple: I copied and pasted the full text of pages or PDFs into a word processor and recorded the word count. For those candidates that offer a summary in addition to a full policy policy paper (typically as a PDF or eBook download), I use the full paper text (for example impressive 39,987 word Romney's economic tome). The number of issues reflects those presented on the candidate's site, rather than the count of my categories which collapse specific issues for clearer cross-candidate comparisons. For instance, I include  tax and job issues under the umbrella of Economy and defense spending or Iran policy are included with Foreign Policy. A lot of disparate issues get lumped into Social Issues&mdash;including criminal justice, 2nd Amendment, voting rights, income inequality, marriage equality, religious liberty, etc. I tried to keep the same issue categories from 2008 for better comparison. I did remove Iraq (not issue written about in 2015) and added the Environment and Social Issues (discussed now more than in 2008). Also, I noticed that every candidate, whether they had policy information or not, devoted a section of their site to biography, so I included word counts for those as well. New categories are marked with a *</p>
+
+                                	<h5>The Issues</h5>
+                                	<ul class="list-bullets">    
+                                        <li>Economy</li>
+                                        <li>Education</li>
+                                        <li>Energy</li>
+                                        <li>Foreign Policy</li>
+                                        <li>Health Care</li>
+                                        <li>Technology</li>
+                                        <li>Social Issues *</li>
+                                        <li>Environment *</li>
+                                        <li>Biography *</li>                            	
+                                	</ul>
+                                	
+                            	<p>Average word counts are for my reported categories. For all of these, the absolute values of numbers is less interesting than the comparisons between candidates.</p>
                             	
-                            	<p>You will see all of the current candidates on the left sidebar. You can toggle as many candidates for comparisons. The buttons below the chart allow you to switch between word counts per issue, total issues covered, and average words overall. As for the issues, I kept the same categories from 2008. Except, I removed Iraq as an issue and added the environment. Also, I noticed that every candidate, whether they had policy information or not, devoted a section of their site to biography. I included word counts for those as well.</p>
-                            	<h5>The Issues</h5>
-                            	<ul class="list-bullets">    
-                                    <li>Economy</li>
-                                    <li>Education</li>
-                                    <li>Energy</li>
-                                    <li>Foreign Policy</li>
-                                    <li>Health Care</li>
-                                    <li>Technology</li>
-                                    <li>Social Issues</li>
-                                    <li>Environment</li>
-                                    <li>Biography</li>                            	
-                            	</ul>
+                            	<p>You will see all of the current candidates on the left sidebar. You can toggle as many candidates for comparisons. The buttons below the chart allow you to switch between word counts per issue, total issues covered, and average words overall.</p>
                             	<p>My raw data can be examined for accuracy: <a href="data/issues.json">Issues</a>, <a href="data/count.json">Issue Counts</a>, and <a href="data/average.json">Average Word Counts</a>. All are in JSON format.</p>
                         	</section>
                         	<section>   
@@ -73,6 +76,10 @@
                                 
                                 <p>For Jim Webb, I combined “Economic Fairness” and “National Infrastructure” for economy.</p>
                                 <p>I updated the biography word counts for 2008 McCain and Obama from <a href="http://archive.org">archive.org</a> cached versions of their sites.</p>
+                        	</section>
+                        	<section>   
+                            	<h5>Technical Information</h5>
+                            	<p>All data is from candidate websites as of the date updated. This visualization was built with JavaScript and HTML/CSS3. Charts are generated from data files using <a href="http://c3js.org">c3.js</a>, which is based on <a href="http://d3js.org">d3.js</a>. Scrolling is provided by <a href="http://iscrolljs.com">iScroll</a>. The source can be found on <a href="https://github.com/zsteiner/wordcounts">Github</a>.</p>
                         	</section>
                 </main>
             </div>
