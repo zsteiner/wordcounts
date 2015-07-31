@@ -15,7 +15,7 @@
     "party":"gop",
     "code":"carson",
     "url":"https://www.bencarson.com",
-    "issues": 4,
+    "issues": 10,
     "average": 315,
     "default": false
   },
@@ -24,7 +24,7 @@
     "first":"Lincoln",
     "party":"dem",
     "code":"chafee",
-    "issues": 3,
+    "issues": 4,
     "average": 188,
     "url":"http://www.chafee2016.com",
     "default": false
@@ -45,7 +45,7 @@
     "party":"dem",
     "code":"clinton",
     "url":"https://www.hillaryclinton.com",
-    "issues": 3,
+    "issues": 4,
     "average": 1206,
     "default": true
   },
@@ -75,7 +75,7 @@
     "party":"gop",
     "code":"graham",
     "url":"http://www.lindseygraham.com",
-    "issues": 6,
+    "issues": 17,
     "average": 588,
     "default": false
   },
@@ -85,7 +85,7 @@
     "party":"gop",
     "code":"huckabee",
     "url":"http://www.mikehuckabee.com/",
-    "issues": 6,
+    "issues": 12,
     "average": 254,
     "default": false
   },
@@ -115,7 +115,7 @@
     "party":"gop",
     "code":"mccain",
     "url":"http://johnmccain.com",
-    "issues": 7,
+    "issues": 18,
     "average": 2559,
     "default": true
   },
@@ -135,7 +135,7 @@
     "party":"dem",
     "code":"obama",
     "url":"https://barackobama.com/",
-    "issues": 7,
+    "issues": 30,
     "average": 5724,
     "default": true
   },
@@ -155,7 +155,7 @@
     "party":"gop",
     "code":"paul",
     "url":"https://www.randpaul.com",
-    "issues": 6,
+    "issues": 18,
     "average": 174,
     "default": false
   },
@@ -165,9 +165,19 @@
     "party":"gop",
     "code":"perry",
     "url":"https://rickperry.org",
-    "issues": 2,
+    "issues": 5,
     "average": 174,
     "default": false
+  },
+  {
+    "last":"Romney",
+    "first":"Mitt",
+    "party":"gop",
+    "code":"romney",
+    "url":"https://mittromney.com",
+    "issues": 9,
+    "average": 11452,
+    "default": true
   },
   {
     "last":"Rubio",
@@ -175,7 +185,7 @@
     "party":"gop",
     "code":"rubio",
     "url":"https://marcorubio.com",
-    "issues": 6,
+    "issues": 19,
     "average": 1588,
     "default": false
   },
@@ -185,7 +195,7 @@
     "party":"dem",
     "code":"sanders",
     "url":"https://berniesanders.com",
-    "issues": 3,
+    "issues": 6,
     "average": 389,
     "default": false
   },
@@ -195,7 +205,7 @@
     "party":"gop",
     "code":"santorum",
     "url":"http://www.ricksantorum.com",
-    "issues": 4,
+    "issues": 8,
     "average": 407,
     "default": false
   },
@@ -225,7 +235,7 @@
     "party":"dem",
     "code":"webb",
     "url":"https://www.webb2016.com",
-    "issues": 0,
+    "issues": 5,
     "average": 524,
     "default": false
   }

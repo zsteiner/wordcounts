@@ -1,10 +1,10 @@
 .selected-candidates {
     padding: 0 spacer(1);
-    margin-bottom: spacer(10);
     overflow: auto;
     
     @include media($mobile) {
         padding: 0 spacer(.5);
+        margin-bottom: spacer(10);
     }    
     
     li {
@@ -30,6 +30,34 @@
         @include media($small) {
           @include span-columns(12);  
           @include omega;          
+        }
+    }
+    
+    [data-candidate-id="Obama"],
+    [data-candidate-id="McCain"],
+    [data-candidate-id="Romney"] {
+        &:before {
+            content: "2008";
+            position: absolute;
+            top: 4rem;
+            width: 5rem;
+            font-size: 1.5rem;
+            color: white;
+            text-shadow: 1px 1px 1px black;
+            text-align: center;
+        }
+    }
+
+    [data-candidate-id="Obama"],
+    [data-candidate-id="McCain"] {
+        &:before {
+            content: "2008";
+        }
+    }
+
+    [data-candidate-id="Romney"] {
+        &:before {
+            content: "2012";
         }
     }
     

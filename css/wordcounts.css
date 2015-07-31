@@ -285,29 +285,29 @@ aside {
   left: 0; }
 
 .chart {
+  margin-bottom: 2rem;
   width: 100%;
-  height: 16em;
-  margin-bottom: 2rem; }
+  height: 16em; }
 
 header {
   padding: 1rem;
   height: 4rem;
   border-bottom: 1px solid #959EA5; }
+  @media screen and (max-width: 770px) {
+    header {
+      padding: 1rem 0.5rem;
+      height: 4rem; } }
   header h1 {
     margin: 0;
     font-size: 2rem; }
     @media screen and (max-width: 770px) {
       header h1 {
-        font-size: 1.25rem;
-        display: inline-block; } }
+        display: inline-block;
+        font-size: 1.25rem; } }
     header h1:before {
-      content: "\2605";
+      margin-right: .3em;
       color: #FE3D42;
-      margin-right: .3em; }
-  @media screen and (max-width: 770px) {
-    header {
-      padding: 1rem 0.5rem;
-      height: 4rem; } }
+      content: "\2605"; }
 
 .main-content {
   display: -webkit-box;
@@ -353,8 +353,8 @@ section {
   border-radius: 0px .25em .25em 0px; }
 
 .candidate-name {
-  font-size: 1rem;
-  overflow: auto; }
+  overflow: auto;
+  font-size: 1rem; }
 
 .candidate-site {
   font-size: .875rem;
@@ -385,11 +385,11 @@ footer {
 
 .selected-candidates {
   padding: 0 1rem;
-  margin-bottom: 10rem;
   overflow: auto; }
   @media screen and (max-width: 770px) {
     .selected-candidates {
-      padding: 0 0.5rem; } }
+      padding: 0 0.5rem;
+      margin-bottom: 10rem; } }
   .selected-candidates li {
     margin-bottom: 1rem;
     padding: 0.5rem 0 1rem;
@@ -424,6 +424,22 @@ footer {
         margin-right: 0; }
         .selected-candidates li:last-child {
           margin-right: 0; } }
+  .selected-candidates [data-candidate-id="Obama"]:before,
+  .selected-candidates [data-candidate-id="McCain"]:before,
+  .selected-candidates [data-candidate-id="Romney"]:before {
+    content: "2008";
+    position: absolute;
+    top: 4rem;
+    width: 5rem;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    text-align: center; }
+  .selected-candidates [data-candidate-id="Obama"]:before,
+  .selected-candidates [data-candidate-id="McCain"]:before {
+    content: "2008"; }
+  .selected-candidates [data-candidate-id="Romney"]:before {
+    content: "2012"; }
   .selected-candidates .candidate-info, .selected-candidates .candidate-image {
     float: left; }
   .selected-candidates .candidate-image {
@@ -611,28 +627,29 @@ footer {
       background-image: url("../images/icons/check-white.svg"); }
 
 .c3 svg {
-  font-family: Work Sans, Helvetica, Arial, sans-serif;
-  font-size: .5em; }
+  font-size: .5em;
+  font-family: Work Sans, Helvetica, Arial, sans-serif; }
 
 .chart-buttons {
   margin: 1rem 0;
   text-align: right; }
+  @media screen and (max-width: 770px) {
+    .chart-buttons {
+      display: none; } }
   .chart-buttons li {
     display: inline-block; }
     .chart-buttons li:not(:last-child) {
       margin-right: 1em; }
-  @media screen and (max-width: 770px) {
-    .chart-buttons {
-      display: none; } }
 
 button {
-  background-color: white;
-  border: 1px solid #4A90E2;
   padding: 0.25rem 0.5rem;
+  border: 1px solid #4A90E2;
+  border-radius: .15em;
+  background-color: white;
+  color: #4A90E2;
   font-size: 1.25em;
   line-height: 1.25;
-  color: #4A90E2;
-  border-radius: .15em; }
+  cursor: pointer; }
   button:hover {
     background-color: #e4eefb; }
   button.is-selected {
@@ -646,8 +663,8 @@ button {
 .list-bullets {
   margin: 1rem 0;
   padding-left: 2em;
-  font-size: .875rem;
   list-style: disc;
+  font-size: .875rem;
   line-height: 1.25; }
 
 p + h5 {

@@ -18,7 +18,13 @@ function issueChart() {
         axis: {
             x: {
                 type: 'category',
-                height: 40
+                height: 40,
+            },
+            
+            y: {
+                tick: {
+                  format: d3.format(",")        
+                }              
             }
         },
         bar: {

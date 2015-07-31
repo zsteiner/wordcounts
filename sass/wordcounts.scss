@@ -15,35 +15,34 @@ $small: new-breakpoint(max-width 950px 12);
 @import 'sidebar';
 
 .chart {
+    margin-bottom: spacer(2);
     width: 100%;
     height: 16em;
-    margin-bottom: spacer(2);
 }
 
 header {
+    @include media($mobile) {
+        padding: spacer(1) spacer(.5);
+        height: 4rem;
+    }
     padding: spacer(1);
     height: 4rem;
     border-bottom: 1px solid $info;
     
     h1 {
-        margin: 0;
-        font-size: 2rem;
 
         @include media($mobile) {
-            font-size: 1.25rem;
             display: inline-block;
+            font-size: 1.25rem;
         }
+        margin: 0;
+        font-size: 2rem;
         
         &:before {
-            content: "\2605";
-            color: $alert;
             margin-right: .3em;
+            color: $alert;
+            content: "\2605";
         }
-    }
-    
-    @include media($mobile) {
-        padding: spacer(1) spacer(.5);
-        height: 4rem;
     }
 }
 
@@ -53,13 +52,13 @@ header {
 }
 
 main {
-    position: relative;
-    padding: spacer(1);
-    flex: 1 1 auto;
     
     @include media($mobile) {
         height: 100vh;
-    }    
+    }
+    position: relative;
+    padding: spacer(1);
+    flex: 1 1 auto;    
     
     h2 {
         @include media($mobile) {
@@ -73,11 +72,11 @@ main {
 }
 
 section {
-    padding: 0 spacer(1);
 
     @include media($mobile) {
         padding: 0 spacer(.5);
     }
+    padding: 0 spacer(1);
     
     p {
         font-size: .875rem;
@@ -89,7 +88,7 @@ section {
     }
     
     & + & {
-        //margin: 0;
+        //margin: 0
     }
 }
 
@@ -108,8 +107,8 @@ section {
 }
 
 .candidate-name {
-    font-size: 1rem;
     overflow: auto;
+    font-size: 1rem;
 }
 
 .candidate-site {
@@ -160,11 +159,15 @@ footer {
 @import 'checkboxes';
 
 .c3 svg {
-    font-family: $font-stack-sans-serif;
     font-size: .5em;
+    font-family: $font-stack-sans-serif;
 }
 
 .chart-buttons {
+    
+    @include media($mobile) {
+        display: none;
+    }
     margin: spacer(1) 0;
     text-align: right;
     
@@ -175,20 +178,17 @@ footer {
             margin-right: 1em;
         }
     }
-    
-    @include media($mobile) {
-        display: none;
-    }
 }
 
 button {
-    background-color: white;
-    border: 1px solid $secondary;
     padding: spacer(.25) spacer(.5);
+    border: 1px solid $secondary;
+    border-radius: .15em;
+    background-color: white;
+    color: $secondary;
     font-size: 1.25em;
     line-height: 1.25;
-    color: $secondary;
-    border-radius: .15em;
+    cursor: pointer;
     
     &:hover {
         background-color: lighten($secondary, 35%);
@@ -208,8 +208,8 @@ button {
 .list-bullets {
     margin: spacer(1) 0;
     padding-left: 2em;
-    font-size: .875rem;
     list-style: disc;
+    font-size: .875rem;
     line-height: 1.25;
 }
 
