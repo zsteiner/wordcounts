@@ -110,7 +110,7 @@ function averageChart() {
         },
         bar: {
           width: {
-            height: 0.5
+            height: 0.7
           }
         }        
     });
@@ -147,7 +147,7 @@ function countChart() {
         },
         bar: {
           width: {
-            ratio: 0.5
+            ratio: 0.7
           }
         }        
     }
