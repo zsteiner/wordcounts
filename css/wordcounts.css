@@ -579,25 +579,25 @@ footer {
         top: 3.5em;
         width: 3em; } }
   .selected-candidates li:nth-of-type(10n + 1):after {
-    background-color: #1978B6; }
+    background-color: #4791E5; }
   .selected-candidates li:nth-of-type(10n + 2):after {
-    background-color: #FF7C00; }
+    background-color: #FAA43A; }
   .selected-candidates li:nth-of-type(10n + 3):after {
-    background-color: #27A024; }
+    background-color: #60BD68; }
   .selected-candidates li:nth-of-type(10n + 4):after {
-    background-color: #D71F1D; }
+    background-color: #F17CB0; }
   .selected-candidates li:nth-of-type(10n + 5):after {
-    background-color: #9467BF; }
+    background-color: #9C604B; }
   .selected-candidates li:nth-of-type(10n + 6):after {
-    background-color: #8D5549; }
+    background-color: #B276B2; }
   .selected-candidates li:nth-of-type(10n + 7):after {
-    background-color: #E476C3; }
+    background-color: #DECF3F; }
   .selected-candidates li:nth-of-type(10n + 8):after {
-    background-color: #7F7F7F; }
+    background-color: #F15854; }
   .selected-candidates li:nth-of-type(10n + 9):after {
-    background-color: #BCBC00; }
+    background-color: #97C8D7; }
   .selected-candidates li:nth-of-type(10n + 10):after {
-    background-color: #00BFD1; }
+    background-color: #787875; }
 
 .checkbox-list input[type="checkbox"] {
   position: absolute;

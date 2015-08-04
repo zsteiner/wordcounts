@@ -7,6 +7,8 @@ var scrollMain;
 var scrollCandidates;
 var isMobile = false;
 
+var colors = ['#4791E5', '#FAA43A', '#60BD68', '#F17CB0', '#9C604B', '#B276B2', '#DECF3F', '#F15854', '#97C8D7', '#787875'];
+
 function candidatesScroll() {
 	scrollCandidates = new IScroll('#candidates', {
 		scrollbars: true,
@@ -31,12 +33,10 @@ function mainScroll() {
 }
 
 function mobileDetect() {
-
     if( $('.menu-button').css('display')==='inline-block') {
         isMobile = true;       
     }
-    // now i can use is_mobile to run javascript conditionally
-
+    
     if (isMobile === true) {
         $('#toggle1').click();
     }    
@@ -52,7 +52,7 @@ function issueChart() {
             url: 'data/issues.json',
             mimeType: 'json',
             type: 'bar',
-            keys: {
+             keys: {
                 x: "issue",
                 value: selectedCandidates,
             }
@@ -71,6 +71,9 @@ function issueChart() {
                 }              
             }
         },
+        color: { 
+             pattern: colors
+         },
         bar: {
           width: {
             ratio: 0.8
@@ -108,6 +111,9 @@ function averageChart() {
                 }              
             }
         },
+        color: { 
+             pattern: colors
+         },
         bar: {
           width: {
             height: 0.7
@@ -145,6 +151,9 @@ function countChart() {
                 }              
             }
         },
+        color: { 
+             pattern: colors
+         },
         bar: {
           width: {
             ratio: 0.7
