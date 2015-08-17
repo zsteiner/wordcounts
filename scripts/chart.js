@@ -20,6 +20,7 @@ function candidatesScroll() {
 		preventDefaultException: { tagName: /^(INPUT|TEXTAREA|BUTTON|SELECT|LABEL)$/ }
 	});
 }
+
 function mainScroll() {
 	scrollMain = new IScroll('#main', {
 		scrollbars: true,
@@ -32,6 +33,7 @@ function mainScroll() {
 	});
 }
 
+//Mobile Detect Function to auto-open the drawer
 function mobileDetect() {
     if( $('.menu-button').css('display')==='inline-block') {
         isMobile = true;       
@@ -163,23 +165,28 @@ function countChart() {
 );
 }
 
+//Build all the c3.js charts
 function makeCharts() {
     issueChart();
     countChart();
     averageChart();
-    //scrollMain.refresh();
 }
 
-function defaultCandidates() {
-    $('#candidate-list [data-default="true"] input').click();
+//Check Default Candidates
+function defaultCandidates(i) {
+    var isDefault = candidates[i].default;
+    
+    if (isDefault === true) {
+      $('#candidate' + i).click();
+    }        
 }
 
+//Intiailize Scrolling
 candidatesScroll();
 mainScroll();
-
 document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
 
-
+//Build Candidate List
 function createCandidateList(obj) {
     var candidateList = document.getElementById('candidate-list');
     var selectedCandidateList = document.getElementById('selected-candidates');
@@ -189,9 +196,7 @@ function createCandidateList(obj) {
         item.innerHTML = '<input type="checkbox" id="candidate' + i + '">' + '<label for="candidate' + i + '" class="candidate-label">' + candidateImage + '</label>' + '<div class="candidate-name">' + candidates[i].first + " " + candidates[i].last + '</div>' + 
             '<div class="party ' + candidates[i].party + '"></div>';
         item.setAttribute('data-candidate-id', candidates[i].last);
-        if (candidates[i].default === true) {
-            item.setAttribute('data-default', candidates[i].default);
-        }
+        
         $(item).find('input').on('change', function() {
             var selectedItem = selectedCandidateList.appendChild(document.createElement('li'));
             if ($(this).is(':checked')) {
@@ -212,18 +217,19 @@ function createCandidateList(obj) {
                 $('#selected-candidates li[data-candidate-id="' + candidates[i].last + '"]').remove();
                 selectedCandidates.splice(index, 1);
             }
-            //console.log(selectedCandidates); 
+
             scrollMain.refresh();
             makeCharts();
         });
 
+        defaultCandidates(i);
     });
 
     scrollCandidates.refresh();    
     makeCharts();
-    defaultCandidates();
 }
 
+//Download JSON
 $.getJSON('data/candidates.js').done(function(data) {
     candidates = data;
     createCandidateList(candidates);
@@ -231,6 +237,7 @@ $.getJSON('data/candidates.js').done(function(data) {
     error = err;
 });
 
+//Show Word Counts by Issue
 $('#issue').click(function(){
    $('.chart-buttons button').removeClass('is-selected');
    $(this).addClass('is-selected');
@@ -238,27 +245,27 @@ $('#issue').click(function(){
    $('#issue-chart').removeClass('is-hidden').siblings('.chart').addClass('is-hidden');
    
    issueChart();
-   //console.log('issue');
 });
 
+//Show Total Issues Covered
 $('#count').click(function(){
    $('.chart-buttons button').removeClass('is-selected');
    $(this).addClass('is-selected');
    
    $('#count-chart').removeClass('is-hidden').siblings('.chart').addClass('is-hidden');
     countChart();
-   //console.log('count');
 });
 
+//Show Average Wordcounts
 $('#average').click(function(){
    $('.chart-buttons button').removeClass('is-selected');
    $(this).addClass('is-selected');
    
    $('#average-chart').removeClass('is-hidden').siblings('.chart').addClass('is-hidden');
    averageChart(); 
-   //console.log('average');
 });
 
 $('.number').mask("000,000,000", {reverse: true});
 
+//Run Mobile Detection
 setTimeout(mobileDetect, 3000);
