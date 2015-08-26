@@ -225,8 +225,8 @@
     "party":"gop",
     "code":"walker",
     "url":"https://www.scottwalker.com ",
-    "issues": 0,
-    "average": 524,
+    "issues": 1,
+    "average": 2144,
     "default": false
   },
   {
