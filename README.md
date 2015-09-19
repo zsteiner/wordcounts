@@ -1,6 +1,6 @@
 #campaign word counts
 
-[http://portfolio.zachsteiner.com/wordcounts/](http://portfolio.zachsteiner.com/wordcounts/)
+<http://wordcounts.zachsteiner.com/>
 
 Back in 2008, while working on a conference submission (and thus hypersensitive to word counts), I wrote a [blog post][1] about word counts on campaign policy position statements. I noticed there was a huge range of ink spilled on various issues between the two candidates at the time. I intended to do a follow up in 2012, but I was otherwise occupied during the election (dissertation, graduating, moving). However, 2016 is proving to be an interesting election cycle. There is a huge field of very diverse candidates ranging from experienced politicians to relative unknowns. I decided to expand the concept as an interactive data visualization. As a comparison, 2008 McCain and Obama and 2012 Romney (actually late 2011, for fairer comparison to the 2016 crop) are included as reference. Immediately noticeable is the fact that many candidates have a lot written already on issues, whereas eight have no policy/issue offerings on their website. This does not seem to be a partisan divide; there are verbose and laconic candidates from both parties. Granted this is still early in the election cycle and many of the campaigns are still nascent. I suspect policy positions will become more substantive for the two remaining candidates after the primaries, as they were for McCain, Obama, and Romney. I will update the underlying data as candidates join, leave, or update their sites.
 

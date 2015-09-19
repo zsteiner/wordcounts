@@ -63,6 +63,8 @@ textarea {
   line-height: inherit; }
 
 *, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -167,7 +169,9 @@ a {
   -webkit-tap-highlight-color: transparent;
   width: 100%;
   -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
   -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -175,6 +179,7 @@ a {
   -ms-user-select: none;
   user-select: none;
   -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
   -ms-text-size-adjust: none;
   -o-text-size-adjust: none;
   text-size-adjust: none; }
@@ -208,12 +213,14 @@ a {
 .menu-toggle {
   position: relative;
   -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
   transition: all 0.5s; }
   .menu-toggle:before, .menu-toggle:after {
     content: "";
     position: absolute;
     left: 0;
     -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
     transition: all 0.5s; }
   .menu-toggle:before {
     top: 1.25em; }
@@ -222,14 +229,18 @@ a {
 
 .checkbox-toggle:checked ~ header .menu-button .menu-toggle {
   -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
   transform: rotate(45deg);
   top: .625em; }
   .checkbox-toggle:checked ~ header .menu-button .menu-toggle:after {
     opacity: 0; }
   .checkbox-toggle:checked ~ header .menu-button .menu-toggle:before {
     -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
     transform: rotate(90deg);
     top: 0; }
 
@@ -241,13 +252,9 @@ aside {
   overflow: hidden;
   width: 16em;
   padding: 0  0  0 0;
-  -webkit-box-flex: 0;
-  -webkit-flex: none;
-      -ms-flex: none;
-          flex: none;
+  flex: none;
   background-color: white;
-  -webkit-transition: all .6s linear;
-          transition: all .6s linear;
+  transition: all .6s linear;
   height: calc(100vh - (7rem));
   border-right: 1px solid #959EA5; }
   @media screen and (max-width: 770px) {
@@ -316,9 +323,6 @@ header {
       content: "\2605"; }
 
 .main-content {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
   background-color: white; }
@@ -326,10 +330,7 @@ header {
 .main-scroll-area {
   position: relative;
   padding: 1rem;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto; }
+  flex: 1 1 auto; }
   @media screen and (max-width: 770px) {
     .main-scroll-area {
       height: 100vh; } }
@@ -418,9 +419,6 @@ footer {
     display: block;
     margin-right: 2.3576515979%;
     width: 48.821174201%;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex; }
     .selected-candidates li:last-child {
       margin-right: 0; }
@@ -473,10 +471,7 @@ footer {
     height: 5em;
     width: 5em;
     margin-right: 0.75rem;
-    -webkit-box-flex: 0;
-    -webkit-flex: none;
-        -ms-flex: none;
-            flex: none;
+    flex: none;
     border-radius: .25em .25em 0 0; }
     @media screen and (max-width: 950px) {
       .selected-candidates .candidate-image {
@@ -490,10 +485,7 @@ footer {
     font-size: .875rem;
     line-height: 1.25;
     float: left;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 1 auto;
-        -ms-flex: 1 1 auto;
-            flex: 1 1 auto; }
+    flex: 1 1 auto; }
     @media screen and (max-width: 950px) {
       .selected-candidates .candidate-info {
         max-width: 70%; } }
@@ -688,9 +680,7 @@ footer {
   background-color: #959EA5;
   color: white;
   text-align: center;
-  -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   opacity: 1 !important; }
   .ribbon:before, .ribbon:after {
     position: absolute;
@@ -756,3 +746,9 @@ p + h5 {
   @media screen and (max-width: 770px) {
     .about-link {
       font-size: 1.2rem; } }
+
+.icon {
+  position: relative;
+  color: currentcolor;
+  height: 1em;
+  width: 1em; }
