@@ -5,9 +5,10 @@
     "party":"gop",
     "code":"bush",
     "url":"https://jeb2016.com/",
-    "issues": 0,
-    "average": 1790,
-    "default": true
+    "issues": 1,
+    "average": 1712,
+    "default": true,
+    "active": true
   },
   {
     "last":"Carson",
@@ -17,7 +18,8 @@
     "url":"https://www.bencarson.com",
     "issues": 10,
     "average": 315,
-    "default": false
+    "default": false,
+    "active": true
   },
   {
     "last":"Chafee",
@@ -27,7 +29,8 @@
     "issues": 4,
     "average": 188,
     "url":"http://www.chafee2016.com",
-    "default": false
+    "default": false,
+    "active": true
   },
   {
     "last":"Christie",
@@ -37,7 +40,8 @@
     "url":"https://www.chrischristie.com",
     "issues": 4,
     "average": 1335,
-    "default": false
+    "default": false,
+    "active": true
   },
   {
     "last":"Clinton",
@@ -47,7 +51,8 @@
     "url":"https://www.hillaryclinton.com",
     "issues": 4,
     "average": 1206,
-    "default": true
+    "default": true,
+    "active": true
   },
   {
     "last":"Cruz",
@@ -57,7 +62,8 @@
     "url":"https://www.tedcruz.org",
     "issues": 0,
     "average": 415,
-    "default": false
+    "default": false,
+    "active": true
   },
   {
     "last":"Fiorina",
@@ -67,7 +73,8 @@
     "url":"https://carlyforpresident.com",
     "issues": 0,
     "average": 790,
-    "default": false
+    "default": false,
+    "active": true
   },
   {
     "last":"Graham",
@@ -77,7 +84,8 @@
     "url":"http://www.lindseygraham.com",
     "issues": 17,
     "average": 588,
-    "default": false
+    "default": false,
+    "active": true
   },
   {
     "last":"Huckabee",
@@ -87,7 +95,8 @@
     "url":"http://www.mikehuckabee.com/",
     "issues": 12,
     "average": 254,
-    "default": false
+    "default": false,
+    "active": true
   },
   {
     "last":"Jindal",
@@ -97,7 +106,8 @@
     "url":"https://www.bobbyjindal.com",
     "issues": 0,
     "average": 743,
-    "default": false
+    "default": false,
+    "active": true
   },
   {
     "last":"Kasich",
@@ -107,7 +117,19 @@
     "url":"https://johnkasich.com",
     "issues": 0,
     "average": 538,
-    "default": false
+    "default": false,
+    "active": true
+  },
+  {
+    "last":"Lessing",
+    "first":"Lawrence",
+    "party":"dem",
+    "code":"lessing",
+    "url":"https://lessig2016.us",
+    "issues": 1,
+    "average": 407,
+    "default": false,
+    "active": true
   },
   {
     "last":"McCain",
@@ -117,7 +139,8 @@
     "url":"http://johnmccain.com",
     "issues": 18,
     "average": 2559,
-    "default": true
+    "default": true,
+    "active": true
   },
   {
     "last":"OMalley",
@@ -127,7 +150,8 @@
     "url":"https://martinomalley.com",
     "issues": 5,
     "average": 1344,
-    "default": false
+    "default": false,
+    "active": true
   },
   {
     "last":"Obama",
@@ -137,7 +161,8 @@
     "url":"https://barackobama.com/",
     "issues": 30,
     "average": 5724,
-    "default": true
+    "default": true,
+    "active": true
   },
   {
     "last":"Pataki",
@@ -147,7 +172,8 @@
     "url":"http://www.georgepataki.com",
     "issues": 0,
     "average": 483,
-    "default": false
+    "default": false,
+    "active": true
   },
   {
     "last":"Paul",
@@ -157,7 +183,8 @@
     "url":"https://www.randpaul.com",
     "issues": 18,
     "average": 174,
-    "default": false
+    "default": false,
+    "active": true
   },
   {
     "last":"Perry",
@@ -167,7 +194,8 @@
     "url":"https://rickperry.org",
     "issues": 5,
     "average": 174,
-    "default": false
+    "default": false,
+    "active": false
   },
   {
     "last":"Romney",
@@ -177,7 +205,8 @@
     "url":"https://mittromney.com",
     "issues": 9,
     "average": 11452,
-    "default": true
+    "default": true,
+    "active": true
   },
   {
     "last":"Rubio",
@@ -187,7 +216,8 @@
     "url":"https://marcorubio.com",
     "issues": 19,
     "average": 1588,
-    "default": false
+    "default": false,
+    "active": true
   },
   {
     "last":"Sanders",
@@ -197,7 +227,8 @@
     "url":"https://berniesanders.com",
     "issues": 6,
     "average": 389,
-    "default": false
+    "default": false,
+    "active": true
   },
   {
     "last":"Santorum",
@@ -207,7 +238,8 @@
     "url":"http://www.ricksantorum.com",
     "issues": 8,
     "average": 407,
-    "default": false
+    "default": false,
+    "active": true
   },
   {
     "last":"Trump",
@@ -217,7 +249,8 @@
     "url":"https://www.donaldjtrump.com",
     "issues": 0,
     "average": 728,
-    "default": false
+    "default": false,
+    "active": true
   },
   {
     "last":"Walker",
@@ -227,7 +260,8 @@
     "url":"https://www.scottwalker.com ",
     "issues": 1,
     "average": 2144,
-    "default": false
+    "default": false,
+    "active": true
   },
   {
     "last":"Webb",
@@ -237,6 +271,7 @@
     "url":"https://www.webb2016.com",
     "issues": 5,
     "average": 524,
-    "default": false
+    "default": false,
+    "active": true
   }
 ]

@@ -109,9 +109,14 @@ section {
 
     li {
         overflow: auto;
-        margin-bottom: spacer(.75);
-        padding-right: spacer(.5);
+        padding: spacer(.75) spacer(1);
         cursor: pointer;
+        position: relative;
+        border-bottom: 1px solid lighten($info, 25%);
+        
+        &:last-child {
+            border-bottom: 0;
+        }
     }
     
     @include media($mobile) {

@@ -193,8 +193,17 @@ function createCandidateList(obj) {
     $.each(obj, function(i, item) {
         item = candidateList.appendChild(document.createElement('li'));
         var candidateImage = '<img class="candidate-image" src="images/candidates/' + candidates[i].code + '.jpg">';
-        item.innerHTML = '<input type="checkbox" id="candidate' + i + '">' + '<label for="candidate' + i + '" class="candidate-label">' + candidateImage + '</label>' + '<div class="candidate-name">' + candidates[i].first + " " + candidates[i].last + '</div>' + 
-            '<div class="party ' + candidates[i].party + '"></div>';
+        var listContents = '<input type="checkbox" id="candidate' + i + '">' + '<label for="candidate' + i + '" class="candidate-label">' + candidateImage + '</label>' + '<div class="candidate-name">' + candidates[i].first + " " + candidates[i].last + '</div>' + 
+                '<div class="party ' + candidates[i].party + '"></div>';
+        if (candidates[i].active === false) {
+            item.innerHTML = listContents + '<div class="wrapper"><div class="ribbon-wrapper"><div class="ribbon dropped-out-ribbon">Out</div></div></div>';
+            $(item).addClass('dropped-out');
+        }
+        
+        else {
+            item.innerHTML = listContents;
+        }        
+
         item.setAttribute('data-candidate-id', candidates[i].last);
         
         $(item).find('input').on('change', function() {

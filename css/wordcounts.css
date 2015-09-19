@@ -240,7 +240,7 @@ aside {
   position: relative;
   overflow: hidden;
   width: 16em;
-  padding: 0 0 0 1rem;
+  padding: 0  0  0 0;
   -webkit-box-flex: 0;
   -webkit-flex: none;
       -ms-flex: none;
@@ -262,11 +262,12 @@ aside {
     position: relative;
     height: calc(100% - 5rem); }
   aside h2 {
-    padding: 0.5rem 0 0.25rem;
+    padding: 0.5rem 1rem 0.25rem;
     margin: 0;
     font-size: 1.75rem; }
     aside h2 + div {
       color: #959EA5;
+      padding-left: 1rem;
       font-size: .875rem;
       margin-bottom: 0.75rem; }
 
@@ -358,9 +359,12 @@ section {
   margin-bottom: 1.5rem; }
   .candidate-list li {
     overflow: auto;
-    margin-bottom: 0.75rem;
-    padding-right: 0.5rem;
-    cursor: pointer; }
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    position: relative;
+    border-bottom: 1px solid #dadde0; }
+    .candidate-list li:last-child {
+      border-bottom: 0; }
   @media screen and (max-width: 770px) {
     .candidate-list {
       margin-bottom: 6rem; } }
@@ -622,32 +626,80 @@ footer {
   position: relative;
   display: block;
   float: left;
+  overflow: auto;
   margin-right: 0.5rem;
+  padding: 0 0.25rem;
   height: 2rem;
   border-radius: .25em;
-  padding: 0 0.25rem;
-  overflow: auto;
-  cursor: pointer;
-  background-color: #dadde0; }
+  background-color: #dadde0;
+  cursor: pointer; }
   .candidate-label .candidate-image {
-    height: 2rem;
-    width: 2rem;
     position: relative;
-    right: -.25em; }
+    right: -.25em;
+    width: 2rem;
+    height: 2rem; }
   .candidate-label:before {
+    z-index: 10;
     display: inline-block;
+    margin: 0 0.25rem 0.5rem;
     width: 1em;
     height: 1em;
-    margin: 0 0.25rem 0.5rem;
-    line-height: 1;
     background-image: url("../images/icons/check_box_outline_blank.svg");
     background-size: contain;
     content: " ";
-    z-index: 10; }
+    line-height: 1; }
   input:checked + .candidate-label {
     background-color: #4A90E2; }
     input:checked + .candidate-label:before {
       background-image: url("../images/icons/check-white.svg"); }
+
+.dropped-out {
+  position: relative; }
+  .dropped-out * {
+    opacity: .55; }
+
+.dropped-out-ribbon {
+  background-color: #959EA5;
+  color: white; }
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 4em;
+  height: 4em; }
+
+.ribbon-wrapper {
+  position: absolute;
+  overflow: hidden;
+  width: 4em;
+  height: 4em;
+  opacity: 1; }
+  .ribbon-wrapper * {
+    opacity: 1; }
+
+.ribbon {
+  position: relative;
+  top: 1em;
+  left: -1.5em;
+  padding: .125em 0;
+  width: 8em;
+  background-color: #959EA5;
+  color: white;
+  text-align: center;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+  opacity: 1 !important; }
+  .ribbon:before, .ribbon:after {
+    position: absolute;
+    bottom: -.125em;
+    content: ""; }
+  .ribbon:before {
+    left: 0; }
+  .ribbon:after {
+    right: 0; }
 
 .c3 svg {
   font-size: .75em;

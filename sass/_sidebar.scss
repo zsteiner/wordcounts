@@ -2,7 +2,7 @@ aside {
     position: relative;
     overflow: hidden;
     width: 16em;
-    padding: 0  0  0 spacer(1);
+    padding: 0  0  0 0;
     //width: 33%;
     flex: none;
     background-color: white;
@@ -29,12 +29,13 @@ aside {
     }
     
     h2 {
-        padding: spacer(.5) 0 spacer(.25);
+        padding: spacer(.5) spacer(1) spacer(.25);
         margin: 0;
         font-size: 1.75rem;
         
         & + div {
            color: $info;
+           padding-left: spacer(1);
            font-size: .875rem;
            margin-bottom: spacer(.75); 
         }
