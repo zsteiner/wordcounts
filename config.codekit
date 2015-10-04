@@ -93,6 +93,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
+	"\/data\/min\/candidates-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/data\/min\/candidates-min.js",
+		"outputAbbreviatedPath": "\/data\/min\/min\/candidates-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/images\/candidates\/bush.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

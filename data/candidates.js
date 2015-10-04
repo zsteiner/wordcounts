@@ -247,9 +247,9 @@
     "party":"gop",
     "code":"trump",
     "url":"https://www.donaldjtrump.com",
-    "issues": 0,
-    "average": 728,
-    "default": false,
+    "issues": 3,
+    "average": 1324,
+    "default": true,
     "active": true
   },
   {
@@ -261,7 +261,7 @@
     "issues": 1,
     "average": 2144,
     "default": false,
-    "active": true
+    "active": false
   },
   {
     "last":"Webb",
