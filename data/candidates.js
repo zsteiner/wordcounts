@@ -104,8 +104,8 @@
     "party":"gop",
     "code":"jindal",
     "url":"https://www.bobbyjindal.com",
-    "issues": 0,
-    "average": 743,
+    "issues": 10,
+    "average": 2314,
     "default": false,
     "active": true
   },
