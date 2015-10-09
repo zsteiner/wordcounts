@@ -115,8 +115,8 @@
     "party":"gop",
     "code":"kasich",
     "url":"https://johnkasich.com",
-    "issues": 0,
-    "average": 538,
+    "issues": 8,
+    "average": 787,
     "default": false,
     "active": true
   },
@@ -205,7 +205,7 @@
     "url":"https://mittromney.com",
     "issues": 9,
     "average": 11452,
-    "default": true,
+    "default": false,
     "active": true
   },
   {
