@@ -7,7 +7,7 @@
     "url":"https://jeb2016.com/",
     "issues": 1,
     "average": 1712,
-    "default": true,
+    "default": false,
     "active": true
   },
   {
@@ -18,7 +18,7 @@
     "url":"https://www.bencarson.com",
     "issues": 10,
     "average": 315,
-    "default": false,
+    "default": true,
     "active": true
   },
   {
@@ -30,7 +30,7 @@
     "average": 188,
     "url":"http://www.chafee2016.com",
     "default": false,
-    "active": true
+    "active": false
   },
   {
     "last":"Christie",
@@ -49,8 +49,8 @@
     "party":"dem",
     "code":"clinton",
     "url":"https://www.hillaryclinton.com",
-    "issues": 4,
-    "average": 1206,
+    "issues": 24,
+    "average": 3495,
     "default": true,
     "active": true
   },
@@ -272,6 +272,6 @@
     "issues": 5,
     "average": 524,
     "default": false,
-    "active": true
+    "active": false
   }
 ]
