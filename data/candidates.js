@@ -129,7 +129,7 @@
     "issues": 1,
     "average": 407,
     "default": false,
-    "active": true
+    "active": false
   },
   {
     "last":"McCain",
