@@ -107,7 +107,7 @@
     "issues": 10,
     "average": 2314,
     "default": false,
-    "active": true
+    "active": false
   },
   {
     "last":"Kasich",
