@@ -227,7 +227,7 @@
     "url":"https://berniesanders.com",
     "issues": 6,
     "average": 389,
-    "default": false,
+    "default": true,
     "active": true
   },
   {
