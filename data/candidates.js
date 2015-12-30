@@ -85,7 +85,7 @@
     "issues": 17,
     "average": 588,
     "default": false,
-    "active": true
+    "active": false
   },
   {
     "last":"Huckabee",
@@ -173,7 +173,7 @@
     "issues": 0,
     "average": 483,
     "default": false,
-    "active": true
+    "active": false
   },
   {
     "last":"Paul",
