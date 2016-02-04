@@ -18,7 +18,7 @@
     "url":"https://www.bencarson.com",
     "issues": 10,
     "average": 315,
-    "default": true,
+    "default": false,
     "active": true
   },
   {
@@ -60,9 +60,9 @@
     "party":"gop",
     "code":"cruz",
     "url":"https://www.tedcruz.org",
-    "issues": 0,
-    "average": 415,
-    "default": false,
+    "issues": 8,
+    "average": 1784,
+    "default": true,
     "active": true
   },
   {
@@ -96,7 +96,7 @@
     "issues": 12,
     "average": 254,
     "default": false,
-    "active": true
+    "active": false
   },
   {
     "last":"Jindal",
@@ -151,7 +151,7 @@
     "issues": 5,
     "average": 1344,
     "default": false,
-    "active": true
+    "active": false
   },
   {
     "last":"Obama",
@@ -184,7 +184,7 @@
     "issues": 18,
     "average": 174,
     "default": false,
-    "active": true
+    "active": false
   },
   {
     "last":"Perry",
@@ -247,8 +247,8 @@
     "party":"gop",
     "code":"trump",
     "url":"https://www.donaldjtrump.com",
-    "issues": 3,
-    "average": 1324,
+    "issues": 5,
+    "average": 1397,
     "default": true,
     "active": true
   },
