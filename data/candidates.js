@@ -41,7 +41,7 @@
     "issues": 4,
     "average": 1335,
     "default": false,
-    "active": true
+    "active": false
   },
   {
     "last":"Clinton",
@@ -74,7 +74,7 @@
     "issues": 0,
     "average": 790,
     "default": false,
-    "active": true
+    "active": false
   },
   {
     "last":"Graham",
@@ -239,7 +239,7 @@
     "issues": 8,
     "average": 407,
     "default": false,
-    "active": true
+    "active": false
   },
   {
     "last":"Trump",
