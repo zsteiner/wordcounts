@@ -8,7 +8,7 @@
     "issues": 1,
     "average": 1712,
     "default": false,
-    "active": true
+    "active": false
   },
   {
     "last":"Carson",
@@ -19,7 +19,7 @@
     "issues": 10,
     "average": 315,
     "default": false,
-    "active": true
+    "active": false
   },
   {
     "last":"Chafee",
