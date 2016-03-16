@@ -217,7 +217,7 @@
     "issues": 19,
     "average": 1588,
     "default": false,
-    "active": true
+    "active": false
   },
   {
     "last":"Sanders",
