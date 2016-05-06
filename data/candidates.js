@@ -63,7 +63,7 @@
     "issues": 8,
     "average": 1784,
     "default": true,
-    "active": true
+    "active": false
   },
   {
     "last":"Fiorina",
@@ -118,7 +118,7 @@
     "issues": 8,
     "average": 787,
     "default": false,
-    "active": true
+    "active": false
   },
   {
     "last":"Lessing",
