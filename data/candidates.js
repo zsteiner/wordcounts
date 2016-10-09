@@ -49,8 +49,8 @@
     "party":"dem",
     "code":"clinton",
     "url":"https://www.hillaryclinton.com",
-    "issues": 24,
-    "average": 3495,
+    "issues": 40,
+    "average": 10915,
     "default": true,
     "active": true
   },
@@ -62,7 +62,7 @@
     "url":"https://www.tedcruz.org",
     "issues": 8,
     "average": 1784,
-    "default": true,
+    "default": false,
     "active": false
   },
   {
@@ -205,7 +205,7 @@
     "url":"https://mittromney.com",
     "issues": 9,
     "average": 11452,
-    "default": false,
+    "default": true,
     "active": true
   },
   {
@@ -227,8 +227,8 @@
     "url":"https://berniesanders.com",
     "issues": 6,
     "average": 389,
-    "default": true,
-    "active": true
+    "default": false,
+    "active": false
   },
   {
     "last":"Santorum",
@@ -247,8 +247,8 @@
     "party":"gop",
     "code":"trump",
     "url":"https://www.donaldjtrump.com",
-    "issues": 5,
-    "average": 1397,
+    "issues": 12,
+    "average": 2338,
     "default": true,
     "active": true
   },
