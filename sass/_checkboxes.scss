@@ -90,6 +90,7 @@
   margin: 0 auto;
   width: 4em;
   height: 4em;
+  z-index: 1;
 }
 
 .ribbon-wrapper {
@@ -115,6 +116,7 @@
     text-align: center;
     transform: rotate(45deg);
     opacity: 1 !important;
+    z-index: 100;
 
     &:before, &:after {
       position:absolute;

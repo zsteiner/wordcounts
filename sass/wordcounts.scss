@@ -5,8 +5,6 @@
 @import "../../global/sass/footer-sticky";
 @import "../../global/sass/typography";
 
-@import 'iscroll';
-
 $height: 7rem;
 $height-offset: $height - 2rem;
 $small: new-breakpoint(max-width 950px 12);
@@ -56,7 +54,9 @@ header {
 
 .main-scroll-area {
     position: relative;        
+    overflow: auto;
     padding: spacer(1);
+    height: calc(100vh - (#{$height}));
     flex: 1 1 auto;    
 
     @include media($mobile) {
@@ -108,7 +108,7 @@ section {
     margin-bottom: spacer(1.5);
 
     li {
-        overflow: auto;
+        overflow: hidden;
         padding: spacer(.75) spacer(1);
         cursor: pointer;
         position: relative;

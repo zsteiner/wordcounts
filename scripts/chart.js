@@ -3,35 +3,11 @@ var chart;
 var candidates = [];
 var selectedCandidates = [];
 
-var scrollMain;
-var scrollCandidates;
+var c3;
+
 var isMobile = false;
 
 var colors = ['#4791E5', '#FAA43A', '#60BD68', '#F17CB0', '#9C604B', '#B276B2', '#DECF3F', '#F15854', '#97C8D7', '#787875'];
-
-function candidatesScroll() {
-	scrollCandidates = new IScroll('#candidates', {
-		scrollbars: true,
-		mouseWheel: true,
-		interactiveScrollbars: true,
-		shrinkScrollbars: 'scale',
-		click: false,
-		fadeScrollbars: false,
-		preventDefaultException: { tagName: /^(INPUT|TEXTAREA|BUTTON|SELECT|LABEL)$/ }
-	});
-}
-
-function mainScroll() {
-	scrollMain = new IScroll('#main', {
-		scrollbars: true,
-		mouseWheel: true,
-		interactiveScrollbars: true,
-		shrinkScrollbars: 'scale',
-		click: false,
-		fadeScrollbars: false,
-		preventDefaultException: { tagName: /^(INPUT|TEXTAREA|BUTTON|SELECT|LABEL|A)$/ }
-	});
-}
 
 //Mobile Detect Function to auto-open the drawer
 function mobileDetect() {
@@ -181,11 +157,6 @@ function defaultCandidates(i) {
     }        
 }
 
-//Intiailize Scrolling
-candidatesScroll();
-mainScroll();
-document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
-
 //Build Candidate List
 function createCandidateList(obj) {
     var candidateList = document.getElementById('candidate-list');
@@ -227,14 +198,12 @@ function createCandidateList(obj) {
                 selectedCandidates.splice(index, 1);
             }
 
-            scrollMain.refresh();
             makeCharts();
         });
 
         defaultCandidates(i);
     });
 
-    scrollCandidates.refresh();    
     makeCharts();
 }
 
