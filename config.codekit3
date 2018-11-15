@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,440 +7,440 @@
 		"uuidString": "D25C5BA7-080D-4F4B-B5FA-667AC03254BA"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "28905",
 "files": {
-	"\/.gitignore": {
+	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/.gitignore",
+		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"\/_issues.html": {
+	"/_issues.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_issues.html",
+		"oAP": "/_issues.html",
 		"oF": 0
 		},
-	"\/about.html": {
+	"/about.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/about.html",
+		"oAP": "/about.html",
 		"oF": 0
 		},
-	"\/css\/c3.min.css": {
+	"/css/c3.min.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/c3.min-min.css",
+		"oAP": "/css/c3.min-min.css",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/css\/wordcounts.css": {
+	"/css/wordcounts.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/wordcounts-min.css",
+		"oAP": "/css/wordcounts-min.css",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/css\/wordcounts.css.map": {
+	"/css/wordcounts.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/css\/wordcounts.css.map",
+		"oAP": "/css/wordcounts.css.map",
 		"oF": 0
 		},
-	"\/data\/average.json": {
+	"/data/average.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/data\/average-min.json",
+		"oAP": "/data/average-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/data\/candidates-retired.js": {
+	"/data/candidates-retired.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/data\/min\/candidates-retired-min.js",
+		"oAP": "/data/min/candidates-retired-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/data\/candidates.js": {
+	"/data/candidates.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/data\/min\/candidates-min.js",
+		"oAP": "/data/min/candidates-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/data\/count.json": {
+	"/data/count.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/data\/count-min.json",
+		"oAP": "/data/count-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/data\/issues.json": {
+	"/data/issues.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/data\/issues-min.json",
+		"oAP": "/data/issues-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/data\/min\/candidates-min.js": {
+	"/data/min/candidates-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/data\/min\/min\/candidates-min-min.js",
+		"oAP": "/data/min/min/candidates-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/images\/candidates\/bush.jpg": {
+	"/images/candidates/bush.jpg": {
 		"ft": 16384,
 		"iS": 4011,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/candidates\/bush.jpg",
+		"oAP": "/images/candidates/bush.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/candidates\/carson.jpg": {
+	"/images/candidates/carson.jpg": {
 		"ft": 16384,
 		"iS": 4411,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/candidates\/carson.jpg",
+		"oAP": "/images/candidates/carson.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/candidates\/chafee.jpg": {
+	"/images/candidates/chafee.jpg": {
 		"ft": 16384,
 		"iS": 3858,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/candidates\/chafee.jpg",
+		"oAP": "/images/candidates/chafee.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/candidates\/christie.jpg": {
+	"/images/candidates/christie.jpg": {
 		"ft": 16384,
 		"iS": 4168,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/candidates\/christie.jpg",
+		"oAP": "/images/candidates/christie.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/candidates\/clinton.jpg": {
+	"/images/candidates/clinton.jpg": {
 		"ft": 16384,
 		"iS": 4840,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/candidates\/clinton.jpg",
+		"oAP": "/images/candidates/clinton.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/candidates\/cruz.jpg": {
+	"/images/candidates/cruz.jpg": {
 		"ft": 16384,
 		"iS": 3640,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/candidates\/cruz.jpg",
+		"oAP": "/images/candidates/cruz.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/candidates\/fiorina.jpg": {
+	"/images/candidates/fiorina.jpg": {
 		"ft": 16384,
 		"iS": 4217,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/candidates\/fiorina.jpg",
+		"oAP": "/images/candidates/fiorina.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/candidates\/graham.jpg": {
+	"/images/candidates/graham.jpg": {
 		"ft": 16384,
 		"iS": 4046,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/candidates\/graham.jpg",
+		"oAP": "/images/candidates/graham.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/candidates\/huckabee.jpg": {
+	"/images/candidates/huckabee.jpg": {
 		"ft": 16384,
 		"iS": 4036,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/candidates\/huckabee.jpg",
+		"oAP": "/images/candidates/huckabee.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/candidates\/jindal.jpg": {
+	"/images/candidates/jindal.jpg": {
 		"ft": 16384,
 		"iS": 4144,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/candidates\/jindal.jpg",
+		"oAP": "/images/candidates/jindal.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/candidates\/kasich.jpg": {
+	"/images/candidates/kasich.jpg": {
 		"ft": 16384,
 		"iS": 3706,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/candidates\/kasich.jpg",
+		"oAP": "/images/candidates/kasich.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/candidates\/lessing.jpg": {
+	"/images/candidates/lessing.jpg": {
 		"ft": 16384,
 		"iS": 7165,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/candidates\/lessing.jpg",
+		"oAP": "/images/candidates/lessing.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/candidates\/mccain.jpg": {
+	"/images/candidates/mccain.jpg": {
 		"ft": 16384,
 		"iS": 26234,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/candidates\/mccain.jpg",
+		"oAP": "/images/candidates/mccain.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/candidates\/obama.jpg": {
+	"/images/candidates/obama.jpg": {
 		"ft": 16384,
 		"iS": 7915,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/candidates\/obama.jpg",
+		"oAP": "/images/candidates/obama.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/candidates\/omalley.jpg": {
+	"/images/candidates/omalley.jpg": {
 		"ft": 16384,
 		"iS": 3797,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/candidates\/omalley.jpg",
+		"oAP": "/images/candidates/omalley.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/candidates\/pataki.jpg": {
+	"/images/candidates/pataki.jpg": {
 		"ft": 16384,
 		"iS": 4999,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/candidates\/pataki.jpg",
+		"oAP": "/images/candidates/pataki.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/candidates\/paul.jpg": {
+	"/images/candidates/paul.jpg": {
 		"ft": 16384,
 		"iS": 4073,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/candidates\/paul.jpg",
+		"oAP": "/images/candidates/paul.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/candidates\/perry.jpg": {
+	"/images/candidates/perry.jpg": {
 		"ft": 16384,
 		"iS": 4615,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/candidates\/perry.jpg",
+		"oAP": "/images/candidates/perry.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/candidates\/romney.jpg": {
+	"/images/candidates/romney.jpg": {
 		"ft": 16384,
 		"iS": 7440,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/candidates\/romney.jpg",
+		"oAP": "/images/candidates/romney.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/candidates\/rubio.jpg": {
+	"/images/candidates/rubio.jpg": {
 		"ft": 16384,
 		"iS": 4375,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/candidates\/rubio.jpg",
+		"oAP": "/images/candidates/rubio.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/candidates\/sanders.jpg": {
+	"/images/candidates/sanders.jpg": {
 		"ft": 16384,
 		"iS": 4192,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/candidates\/sanders.jpg",
+		"oAP": "/images/candidates/sanders.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/candidates\/santorum.jpg": {
+	"/images/candidates/santorum.jpg": {
 		"ft": 16384,
 		"iS": 3704,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/candidates\/santorum.jpg",
+		"oAP": "/images/candidates/santorum.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/candidates\/trump.jpg": {
+	"/images/candidates/trump.jpg": {
 		"ft": 16384,
 		"iS": 4587,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/candidates\/trump.jpg",
+		"oAP": "/images/candidates/trump.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/candidates\/walker.jpg": {
+	"/images/candidates/walker.jpg": {
 		"ft": 16384,
 		"iS": 4154,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/candidates\/walker.jpg",
+		"oAP": "/images/candidates/walker.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/candidates\/webb.jpg": {
+	"/images/candidates/webb.jpg": {
 		"ft": 16384,
 		"iS": 3478,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/candidates\/webb.jpg",
+		"oAP": "/images/candidates/webb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/icons\/check-white.svg": {
+	"/images/icons/check-white.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/icons\/check-white.svg",
+		"oAP": "/images/icons/check-white.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/icons\/check.svg": {
+	"/images/icons/check.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/icons\/check.svg",
+		"oAP": "/images/icons/check.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/icons\/check_box.svg": {
+	"/images/icons/check_box.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/icons\/check_box.svg",
+		"oAP": "/images/icons/check_box.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/icons\/check_box_outline_blank.svg": {
+	"/images/icons/check_box_outline_blank.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/icons\/check_box_outline_blank.svg",
+		"oAP": "/images/icons/check_box_outline_blank.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/index.html": {
+	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/index.html",
+		"oAP": "/index.html",
 		"oF": 0
 		},
-	"\/README.html": {
+	"/README.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/README.html",
+		"oAP": "/README.html",
 		"oF": 0
 		},
-	"\/README.md": {
+	"/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -449,7 +449,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/README.html",
+		"oAP": "/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -458,1428 +458,1428 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_convert-units.scssc": {
+	"/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_convert-units.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_convert-units.scssc",
+		"oAP": "/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_convert-units.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_directional-values.scssc": {
+	"/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_directional-values.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_directional-values.scssc",
+		"oAP": "/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_directional-values.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_font-source-declaration.scssc": {
+	"/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_font-source-declaration.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_font-source-declaration.scssc",
+		"oAP": "/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_font-source-declaration.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_gradient-positions-parser.scssc": {
+	"/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_gradient-positions-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_gradient-positions-parser.scssc",
+		"oAP": "/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_gradient-positions-parser.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_linear-angle-parser.scssc": {
+	"/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_linear-angle-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_linear-angle-parser.scssc",
+		"oAP": "/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_linear-angle-parser.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_linear-gradient-parser.scssc": {
+	"/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_linear-gradient-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_linear-gradient-parser.scssc",
+		"oAP": "/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_linear-gradient-parser.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_linear-positions-parser.scssc": {
+	"/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_linear-positions-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_linear-positions-parser.scssc",
+		"oAP": "/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_linear-positions-parser.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_linear-side-corner-parser.scssc": {
+	"/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_linear-side-corner-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_linear-side-corner-parser.scssc",
+		"oAP": "/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_linear-side-corner-parser.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_radial-arg-parser.scssc": {
+	"/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_radial-arg-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_radial-arg-parser.scssc",
+		"oAP": "/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_radial-arg-parser.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_radial-gradient-parser.scssc": {
+	"/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_radial-gradient-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_radial-gradient-parser.scssc",
+		"oAP": "/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_radial-gradient-parser.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_radial-positions-parser.scssc": {
+	"/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_radial-positions-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_radial-positions-parser.scssc",
+		"oAP": "/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_radial-positions-parser.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_render-gradients.scssc": {
+	"/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_render-gradients.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_render-gradients.scssc",
+		"oAP": "/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_render-gradients.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_shape-size-stripper.scssc": {
+	"/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_shape-size-stripper.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_shape-size-stripper.scssc",
+		"oAP": "/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_shape-size-stripper.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_str-to-num.scssc": {
+	"/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_str-to-num.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_str-to-num.scssc",
+		"oAP": "/sass/.sass-cache/096668430bfb78ed8a2de7083a4749de97c4fc4b/_str-to-num.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_animation.scssc": {
+	"/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_animation.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_animation.scssc",
+		"oAP": "/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_animation.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_appearance.scssc": {
+	"/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_appearance.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_appearance.scssc",
+		"oAP": "/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_appearance.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_backface-visibility.scssc": {
+	"/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_backface-visibility.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_backface-visibility.scssc",
+		"oAP": "/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_backface-visibility.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_background-image.scssc": {
+	"/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_background-image.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_background-image.scssc",
+		"oAP": "/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_background-image.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_background.scssc": {
+	"/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_background.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_background.scssc",
+		"oAP": "/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_background.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_border-image.scssc": {
+	"/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_border-image.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_border-image.scssc",
+		"oAP": "/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_border-image.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_calc.scssc": {
+	"/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_calc.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_calc.scssc",
+		"oAP": "/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_calc.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_columns.scssc": {
+	"/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_columns.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_columns.scssc",
+		"oAP": "/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_columns.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_filter.scssc": {
+	"/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_filter.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_filter.scssc",
+		"oAP": "/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_filter.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_flex-box.scssc": {
+	"/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_flex-box.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_flex-box.scssc",
+		"oAP": "/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_flex-box.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_font-face.scssc": {
+	"/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_font-face.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_font-face.scssc",
+		"oAP": "/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_font-face.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_font-feature-settings.scssc": {
+	"/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_font-feature-settings.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_font-feature-settings.scssc",
+		"oAP": "/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_font-feature-settings.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_hidpi-media-query.scssc": {
+	"/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_hidpi-media-query.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_hidpi-media-query.scssc",
+		"oAP": "/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_hidpi-media-query.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_hyphens.scssc": {
+	"/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_hyphens.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_hyphens.scssc",
+		"oAP": "/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_hyphens.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_image-rendering.scssc": {
+	"/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_image-rendering.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_image-rendering.scssc",
+		"oAP": "/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_image-rendering.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_keyframes.scssc": {
+	"/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_keyframes.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_keyframes.scssc",
+		"oAP": "/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_keyframes.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_linear-gradient.scssc": {
+	"/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_linear-gradient.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_linear-gradient.scssc",
+		"oAP": "/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_linear-gradient.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_perspective.scssc": {
+	"/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_perspective.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_perspective.scssc",
+		"oAP": "/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_perspective.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_placeholder.scssc": {
+	"/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_placeholder.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_placeholder.scssc",
+		"oAP": "/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_placeholder.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_radial-gradient.scssc": {
+	"/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_radial-gradient.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_radial-gradient.scssc",
+		"oAP": "/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_radial-gradient.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_selection.scssc": {
+	"/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_selection.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_selection.scssc",
+		"oAP": "/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_selection.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_text-decoration.scssc": {
+	"/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_text-decoration.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_text-decoration.scssc",
+		"oAP": "/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_text-decoration.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_transform.scssc": {
+	"/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_transform.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_transform.scssc",
+		"oAP": "/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_transform.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_transition.scssc": {
+	"/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_transition.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_transition.scssc",
+		"oAP": "/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_transition.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_user-select.scssc": {
+	"/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_user-select.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e\/_user-select.scssc",
+		"oAP": "/sass/.sass-cache/10d12f4bb8a3918c755874fa39d4a9f2e7d3390e/_user-select.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_animation.scssc": {
+	"/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_animation.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_animation.scssc",
+		"oAP": "/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_animation.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_appearance.scssc": {
+	"/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_appearance.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_appearance.scssc",
+		"oAP": "/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_appearance.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_backface-visibility.scssc": {
+	"/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_backface-visibility.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_backface-visibility.scssc",
+		"oAP": "/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_backface-visibility.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_background-image.scssc": {
+	"/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_background-image.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_background-image.scssc",
+		"oAP": "/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_background-image.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_background.scssc": {
+	"/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_background.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_background.scssc",
+		"oAP": "/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_background.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_border-image.scssc": {
+	"/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_border-image.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_border-image.scssc",
+		"oAP": "/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_border-image.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_calc.scssc": {
+	"/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_calc.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_calc.scssc",
+		"oAP": "/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_calc.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_columns.scssc": {
+	"/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_columns.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_columns.scssc",
+		"oAP": "/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_columns.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_filter.scssc": {
+	"/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_filter.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_filter.scssc",
+		"oAP": "/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_filter.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_flex-box.scssc": {
+	"/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_flex-box.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_flex-box.scssc",
+		"oAP": "/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_flex-box.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_font-face.scssc": {
+	"/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_font-face.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_font-face.scssc",
+		"oAP": "/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_font-face.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_font-feature-settings.scssc": {
+	"/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_font-feature-settings.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_font-feature-settings.scssc",
+		"oAP": "/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_font-feature-settings.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_hidpi-media-query.scssc": {
+	"/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_hidpi-media-query.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_hidpi-media-query.scssc",
+		"oAP": "/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_hidpi-media-query.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_hyphens.scssc": {
+	"/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_hyphens.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_hyphens.scssc",
+		"oAP": "/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_hyphens.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_image-rendering.scssc": {
+	"/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_image-rendering.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_image-rendering.scssc",
+		"oAP": "/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_image-rendering.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_keyframes.scssc": {
+	"/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_keyframes.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_keyframes.scssc",
+		"oAP": "/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_keyframes.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_linear-gradient.scssc": {
+	"/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_linear-gradient.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_linear-gradient.scssc",
+		"oAP": "/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_linear-gradient.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_perspective.scssc": {
+	"/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_perspective.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_perspective.scssc",
+		"oAP": "/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_perspective.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_placeholder.scssc": {
+	"/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_placeholder.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_placeholder.scssc",
+		"oAP": "/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_placeholder.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_radial-gradient.scssc": {
+	"/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_radial-gradient.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_radial-gradient.scssc",
+		"oAP": "/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_radial-gradient.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_selection.scssc": {
+	"/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_selection.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_selection.scssc",
+		"oAP": "/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_selection.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_text-decoration.scssc": {
+	"/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_text-decoration.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_text-decoration.scssc",
+		"oAP": "/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_text-decoration.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_transform.scssc": {
+	"/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_transform.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_transform.scssc",
+		"oAP": "/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_transform.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_transition.scssc": {
+	"/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_transition.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_transition.scssc",
+		"oAP": "/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_transition.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_user-select.scssc": {
+	"/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_user-select.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/1bc39e2d058210c24bbf01283df5646f2b43c8bc\/_user-select.scssc",
+		"oAP": "/sass/.sass-cache/1bc39e2d058210c24bbf01283df5646f2b43c8bc/_user-select.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/2d0ad2686db7b78b56dc4362d2abdc80e026ea72\/_new-breakpoint.scssc": {
+	"/sass/.sass-cache/2d0ad2686db7b78b56dc4362d2abdc80e026ea72/_new-breakpoint.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/2d0ad2686db7b78b56dc4362d2abdc80e026ea72\/_new-breakpoint.scssc",
+		"oAP": "/sass/.sass-cache/2d0ad2686db7b78b56dc4362d2abdc80e026ea72/_new-breakpoint.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/2d0ad2686db7b78b56dc4362d2abdc80e026ea72\/_private.scssc": {
+	"/sass/.sass-cache/2d0ad2686db7b78b56dc4362d2abdc80e026ea72/_private.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/2d0ad2686db7b78b56dc4362d2abdc80e026ea72\/_private.scssc",
+		"oAP": "/sass/.sass-cache/2d0ad2686db7b78b56dc4362d2abdc80e026ea72/_private.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/2d18c097873b0580b26b637ebf97cec82f37e045\/_asset-pipeline.scssc": {
+	"/sass/.sass-cache/2d18c097873b0580b26b637ebf97cec82f37e045/_asset-pipeline.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/2d18c097873b0580b26b637ebf97cec82f37e045\/_asset-pipeline.scssc",
+		"oAP": "/sass/.sass-cache/2d18c097873b0580b26b637ebf97cec82f37e045/_asset-pipeline.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/2d18c097873b0580b26b637ebf97cec82f37e045\/_prefixer.scssc": {
+	"/sass/.sass-cache/2d18c097873b0580b26b637ebf97cec82f37e045/_prefixer.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/2d18c097873b0580b26b637ebf97cec82f37e045\/_prefixer.scssc",
+		"oAP": "/sass/.sass-cache/2d18c097873b0580b26b637ebf97cec82f37e045/_prefixer.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/2d18c097873b0580b26b637ebf97cec82f37e045\/_px-to-em.scssc": {
+	"/sass/.sass-cache/2d18c097873b0580b26b637ebf97cec82f37e045/_px-to-em.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/2d18c097873b0580b26b637ebf97cec82f37e045\/_px-to-em.scssc",
+		"oAP": "/sass/.sass-cache/2d18c097873b0580b26b637ebf97cec82f37e045/_px-to-em.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/54f6a2bffaabc746be9be8607bd501cb523b862d\/_footer-sticky.scssc": {
+	"/sass/.sass-cache/54f6a2bffaabc746be9be8607bd501cb523b862d/_footer-sticky.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/54f6a2bffaabc746be9be8607bd501cb523b862d\/_footer-sticky.scssc",
+		"oAP": "/sass/.sass-cache/54f6a2bffaabc746be9be8607bd501cb523b862d/_footer-sticky.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/54f6a2bffaabc746be9be8607bd501cb523b862d\/_reset.scssc": {
+	"/sass/.sass-cache/54f6a2bffaabc746be9be8607bd501cb523b862d/_reset.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/54f6a2bffaabc746be9be8607bd501cb523b862d\/_reset.scssc",
+		"oAP": "/sass/.sass-cache/54f6a2bffaabc746be9be8607bd501cb523b862d/_reset.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/54f6a2bffaabc746be9be8607bd501cb523b862d\/_typography.scssc": {
+	"/sass/.sass-cache/54f6a2bffaabc746be9be8607bd501cb523b862d/_typography.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/54f6a2bffaabc746be9be8607bd501cb523b862d\/_typography.scssc",
+		"oAP": "/sass/.sass-cache/54f6a2bffaabc746be9be8607bd501cb523b862d/_typography.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/54f6a2bffaabc746be9be8607bd501cb523b862d\/_utility.scssc": {
+	"/sass/.sass-cache/54f6a2bffaabc746be9be8607bd501cb523b862d/_utility.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/54f6a2bffaabc746be9be8607bd501cb523b862d\/_utility.scssc",
+		"oAP": "/sass/.sass-cache/54f6a2bffaabc746be9be8607bd501cb523b862d/_utility.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/54f6a2bffaabc746be9be8607bd501cb523b862d\/_variables.scssc": {
+	"/sass/.sass-cache/54f6a2bffaabc746be9be8607bd501cb523b862d/_variables.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/54f6a2bffaabc746be9be8607bd501cb523b862d\/_variables.scssc",
+		"oAP": "/sass/.sass-cache/54f6a2bffaabc746be9be8607bd501cb523b862d/_variables.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/54f6a2bffaabc746be9be8607bd501cb523b862d\/_worksans.scssc": {
+	"/sass/.sass-cache/54f6a2bffaabc746be9be8607bd501cb523b862d/_worksans.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/54f6a2bffaabc746be9be8607bd501cb523b862d\/_worksans.scssc",
+		"oAP": "/sass/.sass-cache/54f6a2bffaabc746be9be8607bd501cb523b862d/_worksans.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/6ab4a21655f17887760b88b11a9a689085176534\/_bourbon-deprecated-upcoming.scssc": {
+	"/sass/.sass-cache/6ab4a21655f17887760b88b11a9a689085176534/_bourbon-deprecated-upcoming.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/6ab4a21655f17887760b88b11a9a689085176534\/_bourbon-deprecated-upcoming.scssc",
+		"oAP": "/sass/.sass-cache/6ab4a21655f17887760b88b11a9a689085176534/_bourbon-deprecated-upcoming.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/6ab4a21655f17887760b88b11a9a689085176534\/_bourbon.scssc": {
+	"/sass/.sass-cache/6ab4a21655f17887760b88b11a9a689085176534/_bourbon.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/6ab4a21655f17887760b88b11a9a689085176534\/_bourbon.scssc",
+		"oAP": "/sass/.sass-cache/6ab4a21655f17887760b88b11a9a689085176534/_bourbon.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_assign-inputs.scssc": {
+	"/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_assign-inputs.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_assign-inputs.scssc",
+		"oAP": "/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_assign-inputs.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_contains-falsy.scssc": {
+	"/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_contains-falsy.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_contains-falsy.scssc",
+		"oAP": "/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_contains-falsy.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_contains.scssc": {
+	"/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_contains.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_contains.scssc",
+		"oAP": "/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_contains.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_is-length.scssc": {
+	"/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_is-length.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_is-length.scssc",
+		"oAP": "/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_is-length.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_is-light.scssc": {
+	"/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_is-light.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_is-light.scssc",
+		"oAP": "/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_is-light.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_is-number.scssc": {
+	"/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_is-number.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_is-number.scssc",
+		"oAP": "/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_is-number.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_is-size.scssc": {
+	"/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_is-size.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_is-size.scssc",
+		"oAP": "/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_is-size.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_modular-scale.scssc": {
+	"/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_modular-scale.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_modular-scale.scssc",
+		"oAP": "/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_modular-scale.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_px-to-em.scssc": {
+	"/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_px-to-em.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_px-to-em.scssc",
+		"oAP": "/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_px-to-em.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_px-to-rem.scssc": {
+	"/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_px-to-rem.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_px-to-rem.scssc",
+		"oAP": "/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_px-to-rem.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_shade.scssc": {
+	"/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_shade.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_shade.scssc",
+		"oAP": "/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_shade.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_strip-units.scssc": {
+	"/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_strip-units.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_strip-units.scssc",
+		"oAP": "/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_strip-units.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_tint.scssc": {
+	"/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_tint.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_tint.scssc",
+		"oAP": "/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_tint.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_transition-property-name.scssc": {
+	"/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_transition-property-name.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_transition-property-name.scssc",
+		"oAP": "/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_transition-property-name.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_unpack.scssc": {
+	"/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_unpack.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/72773e327525443e0064f9369a87d53735f1d13e\/_unpack.scssc",
+		"oAP": "/sass/.sass-cache/72773e327525443e0064f9369a87d53735f1d13e/_unpack.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/8415ed764aa39020dc6cd0c47a8d3924a90daf8e\/_neat-helpers.scssc": {
+	"/sass/.sass-cache/8415ed764aa39020dc6cd0c47a8d3924a90daf8e/_neat-helpers.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/8415ed764aa39020dc6cd0c47a8d3924a90daf8e\/_neat-helpers.scssc",
+		"oAP": "/sass/.sass-cache/8415ed764aa39020dc6cd0c47a8d3924a90daf8e/_neat-helpers.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/8415ed764aa39020dc6cd0c47a8d3924a90daf8e\/_neat.scssc": {
+	"/sass/.sass-cache/8415ed764aa39020dc6cd0c47a8d3924a90daf8e/_neat.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/8415ed764aa39020dc6cd0c47a8d3924a90daf8e\/_neat.scssc",
+		"oAP": "/sass/.sass-cache/8415ed764aa39020dc6cd0c47a8d3924a90daf8e/_neat.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/858461b66d699a4f234692679750097594118102\/_footer-sticky.scssc": {
+	"/sass/.sass-cache/858461b66d699a4f234692679750097594118102/_footer-sticky.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/858461b66d699a4f234692679750097594118102\/_footer-sticky.scssc",
+		"oAP": "/sass/.sass-cache/858461b66d699a4f234692679750097594118102/_footer-sticky.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/858461b66d699a4f234692679750097594118102\/_reset.scssc": {
+	"/sass/.sass-cache/858461b66d699a4f234692679750097594118102/_reset.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/858461b66d699a4f234692679750097594118102\/_reset.scssc",
+		"oAP": "/sass/.sass-cache/858461b66d699a4f234692679750097594118102/_reset.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/858461b66d699a4f234692679750097594118102\/_typography.scssc": {
+	"/sass/.sass-cache/858461b66d699a4f234692679750097594118102/_typography.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/858461b66d699a4f234692679750097594118102\/_typography.scssc",
+		"oAP": "/sass/.sass-cache/858461b66d699a4f234692679750097594118102/_typography.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/858461b66d699a4f234692679750097594118102\/_utility.scssc": {
+	"/sass/.sass-cache/858461b66d699a4f234692679750097594118102/_utility.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/858461b66d699a4f234692679750097594118102\/_utility.scssc",
+		"oAP": "/sass/.sass-cache/858461b66d699a4f234692679750097594118102/_utility.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/858461b66d699a4f234692679750097594118102\/_variables.scssc": {
+	"/sass/.sass-cache/858461b66d699a4f234692679750097594118102/_variables.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/858461b66d699a4f234692679750097594118102\/_variables.scssc",
+		"oAP": "/sass/.sass-cache/858461b66d699a4f234692679750097594118102/_variables.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/858461b66d699a4f234692679750097594118102\/_worksans.scssc": {
+	"/sass/.sass-cache/858461b66d699a4f234692679750097594118102/_worksans.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/858461b66d699a4f234692679750097594118102\/_worksans.scssc",
+		"oAP": "/sass/.sass-cache/858461b66d699a4f234692679750097594118102/_worksans.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_border-color.scssc": {
+	"/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_border-color.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_border-color.scssc",
+		"oAP": "/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_border-color.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_border-radius.scssc": {
+	"/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_border-radius.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_border-radius.scssc",
+		"oAP": "/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_border-radius.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_border-style.scssc": {
+	"/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_border-style.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_border-style.scssc",
+		"oAP": "/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_border-style.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_border-width.scssc": {
+	"/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_border-width.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_border-width.scssc",
+		"oAP": "/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_border-width.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_buttons.scssc": {
+	"/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_buttons.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_buttons.scssc",
+		"oAP": "/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_buttons.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_clearfix.scssc": {
+	"/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_clearfix.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_clearfix.scssc",
+		"oAP": "/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_clearfix.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_ellipsis.scssc": {
+	"/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_ellipsis.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_ellipsis.scssc",
+		"oAP": "/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_ellipsis.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_font-stacks.scssc": {
+	"/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_font-stacks.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_font-stacks.scssc",
+		"oAP": "/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_font-stacks.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_hide-text.scssc": {
+	"/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_hide-text.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_hide-text.scssc",
+		"oAP": "/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_hide-text.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_margin.scssc": {
+	"/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_margin.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_margin.scssc",
+		"oAP": "/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_margin.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_padding.scssc": {
+	"/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_padding.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_padding.scssc",
+		"oAP": "/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_padding.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_position.scssc": {
+	"/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_position.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_position.scssc",
+		"oAP": "/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_position.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_prefixer.scssc": {
+	"/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_prefixer.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_prefixer.scssc",
+		"oAP": "/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_prefixer.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_retina-image.scssc": {
+	"/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_retina-image.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_retina-image.scssc",
+		"oAP": "/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_retina-image.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_size.scssc": {
+	"/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_size.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_size.scssc",
+		"oAP": "/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_size.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_text-inputs.scssc": {
+	"/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_text-inputs.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_text-inputs.scssc",
+		"oAP": "/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_text-inputs.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_timing-functions.scssc": {
+	"/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_timing-functions.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_timing-functions.scssc",
+		"oAP": "/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_timing-functions.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_triangle.scssc": {
+	"/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_triangle.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_triangle.scssc",
+		"oAP": "/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_triangle.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_word-wrap.scssc": {
+	"/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_word-wrap.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/936fba1770a8b16e23168c7474a958606f40a270\/_word-wrap.scssc",
+		"oAP": "/sass/.sass-cache/936fba1770a8b16e23168c7474a958606f40a270/_word-wrap.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_convert-units.scssc": {
+	"/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_convert-units.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_convert-units.scssc",
+		"oAP": "/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_convert-units.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_directional-values.scssc": {
+	"/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_directional-values.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_directional-values.scssc",
+		"oAP": "/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_directional-values.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_font-source-declaration.scssc": {
+	"/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_font-source-declaration.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_font-source-declaration.scssc",
+		"oAP": "/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_font-source-declaration.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_gradient-positions-parser.scssc": {
+	"/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_gradient-positions-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_gradient-positions-parser.scssc",
+		"oAP": "/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_gradient-positions-parser.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_linear-angle-parser.scssc": {
+	"/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_linear-angle-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_linear-angle-parser.scssc",
+		"oAP": "/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_linear-angle-parser.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_linear-gradient-parser.scssc": {
+	"/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_linear-gradient-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_linear-gradient-parser.scssc",
+		"oAP": "/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_linear-gradient-parser.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_linear-positions-parser.scssc": {
+	"/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_linear-positions-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_linear-positions-parser.scssc",
+		"oAP": "/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_linear-positions-parser.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_linear-side-corner-parser.scssc": {
+	"/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_linear-side-corner-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_linear-side-corner-parser.scssc",
+		"oAP": "/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_linear-side-corner-parser.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_radial-arg-parser.scssc": {
+	"/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_radial-arg-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_radial-arg-parser.scssc",
+		"oAP": "/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_radial-arg-parser.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_radial-gradient-parser.scssc": {
+	"/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_radial-gradient-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_radial-gradient-parser.scssc",
+		"oAP": "/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_radial-gradient-parser.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_radial-positions-parser.scssc": {
+	"/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_radial-positions-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_radial-positions-parser.scssc",
+		"oAP": "/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_radial-positions-parser.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_render-gradients.scssc": {
+	"/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_render-gradients.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_render-gradients.scssc",
+		"oAP": "/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_render-gradients.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_shape-size-stripper.scssc": {
+	"/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_shape-size-stripper.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_shape-size-stripper.scssc",
+		"oAP": "/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_shape-size-stripper.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_str-to-num.scssc": {
+	"/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_str-to-num.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/940751e9e6d064888af416e1fd3c7ac66fc12b4d\/_str-to-num.scssc",
+		"oAP": "/sass/.sass-cache/940751e9e6d064888af416e1fd3c7ac66fc12b4d/_str-to-num.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_assign-inputs.scssc": {
+	"/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_assign-inputs.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_assign-inputs.scssc",
+		"oAP": "/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_assign-inputs.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_contains-falsy.scssc": {
+	"/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_contains-falsy.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_contains-falsy.scssc",
+		"oAP": "/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_contains-falsy.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_contains.scssc": {
+	"/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_contains.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_contains.scssc",
+		"oAP": "/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_contains.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_is-length.scssc": {
+	"/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_is-length.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_is-length.scssc",
+		"oAP": "/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_is-length.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_is-light.scssc": {
+	"/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_is-light.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_is-light.scssc",
+		"oAP": "/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_is-light.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_is-number.scssc": {
+	"/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_is-number.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_is-number.scssc",
+		"oAP": "/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_is-number.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_is-size.scssc": {
+	"/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_is-size.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_is-size.scssc",
+		"oAP": "/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_is-size.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_modular-scale.scssc": {
+	"/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_modular-scale.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_modular-scale.scssc",
+		"oAP": "/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_modular-scale.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_px-to-em.scssc": {
+	"/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_px-to-em.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_px-to-em.scssc",
+		"oAP": "/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_px-to-em.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_px-to-rem.scssc": {
+	"/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_px-to-rem.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_px-to-rem.scssc",
+		"oAP": "/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_px-to-rem.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_shade.scssc": {
+	"/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_shade.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_shade.scssc",
+		"oAP": "/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_shade.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_strip-units.scssc": {
+	"/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_strip-units.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_strip-units.scssc",
+		"oAP": "/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_strip-units.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_tint.scssc": {
+	"/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_tint.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_tint.scssc",
+		"oAP": "/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_tint.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_transition-property-name.scssc": {
+	"/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_transition-property-name.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_transition-property-name.scssc",
+		"oAP": "/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_transition-property-name.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_unpack.scssc": {
+	"/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_unpack.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60\/_unpack.scssc",
+		"oAP": "/sass/.sass-cache/9b831de8c2d66e2c1ccfb6e31ea55578d3230d60/_unpack.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/aa3c3180bc5921d334f50e42aeac9b70c29f23c2\/_disable-warnings.scssc": {
+	"/sass/.sass-cache/aa3c3180bc5921d334f50e42aeac9b70c29f23c2/_disable-warnings.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/aa3c3180bc5921d334f50e42aeac9b70c29f23c2\/_disable-warnings.scssc",
+		"oAP": "/sass/.sass-cache/aa3c3180bc5921d334f50e42aeac9b70c29f23c2/_disable-warnings.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/aa3c3180bc5921d334f50e42aeac9b70c29f23c2\/_grid.scssc": {
+	"/sass/.sass-cache/aa3c3180bc5921d334f50e42aeac9b70c29f23c2/_grid.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/aa3c3180bc5921d334f50e42aeac9b70c29f23c2\/_grid.scssc",
+		"oAP": "/sass/.sass-cache/aa3c3180bc5921d334f50e42aeac9b70c29f23c2/_grid.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/aa3c3180bc5921d334f50e42aeac9b70c29f23c2\/_visual-grid.scssc": {
+	"/sass/.sass-cache/aa3c3180bc5921d334f50e42aeac9b70c29f23c2/_visual-grid.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/aa3c3180bc5921d334f50e42aeac9b70c29f23c2\/_visual-grid.scssc",
+		"oAP": "/sass/.sass-cache/aa3c3180bc5921d334f50e42aeac9b70c29f23c2/_visual-grid.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_box-sizing.scssc": {
+	"/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_box-sizing.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_box-sizing.scssc",
+		"oAP": "/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_box-sizing.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_direction-context.scssc": {
+	"/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_direction-context.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_direction-context.scssc",
+		"oAP": "/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_direction-context.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_display-context.scssc": {
+	"/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_display-context.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_display-context.scssc",
+		"oAP": "/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_display-context.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_fill-parent.scssc": {
+	"/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_fill-parent.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_fill-parent.scssc",
+		"oAP": "/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_fill-parent.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_media.scssc": {
+	"/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_media.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_media.scssc",
+		"oAP": "/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_media.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_omega.scssc": {
+	"/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_omega.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_omega.scssc",
+		"oAP": "/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_omega.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_outer-container.scssc": {
+	"/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_outer-container.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_outer-container.scssc",
+		"oAP": "/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_outer-container.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_pad.scssc": {
+	"/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_pad.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_pad.scssc",
+		"oAP": "/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_pad.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_private.scssc": {
+	"/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_private.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_private.scssc",
+		"oAP": "/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_private.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_row.scssc": {
+	"/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_row.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_row.scssc",
+		"oAP": "/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_row.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_shift.scssc": {
+	"/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_shift.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_shift.scssc",
+		"oAP": "/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_shift.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_span-columns.scssc": {
+	"/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_span-columns.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_span-columns.scssc",
+		"oAP": "/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_span-columns.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_to-deprecate.scssc": {
+	"/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_to-deprecate.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_to-deprecate.scssc",
+		"oAP": "/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_to-deprecate.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_visual-grid.scssc": {
+	"/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_visual-grid.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/b7fa91922afefde34b170c450c3d958d8c77ed67\/_visual-grid.scssc",
+		"oAP": "/sass/.sass-cache/b7fa91922afefde34b170c450c3d958d8c77ed67/_visual-grid.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/ca316097dea08a52299aea5515bd8524f0ac234f\/_asset-pipeline.scssc": {
+	"/sass/.sass-cache/ca316097dea08a52299aea5515bd8524f0ac234f/_asset-pipeline.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/ca316097dea08a52299aea5515bd8524f0ac234f\/_asset-pipeline.scssc",
+		"oAP": "/sass/.sass-cache/ca316097dea08a52299aea5515bd8524f0ac234f/_asset-pipeline.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/ca316097dea08a52299aea5515bd8524f0ac234f\/_prefixer.scssc": {
+	"/sass/.sass-cache/ca316097dea08a52299aea5515bd8524f0ac234f/_prefixer.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/ca316097dea08a52299aea5515bd8524f0ac234f\/_prefixer.scssc",
+		"oAP": "/sass/.sass-cache/ca316097dea08a52299aea5515bd8524f0ac234f/_prefixer.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/ca316097dea08a52299aea5515bd8524f0ac234f\/_px-to-em.scssc": {
+	"/sass/.sass-cache/ca316097dea08a52299aea5515bd8524f0ac234f/_px-to-em.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/ca316097dea08a52299aea5515bd8524f0ac234f\/_px-to-em.scssc",
+		"oAP": "/sass/.sass-cache/ca316097dea08a52299aea5515bd8524f0ac234f/_px-to-em.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/d6713cb7d46719264353e104f3c9803d42f670a5\/_chart-legend.scssc": {
+	"/sass/.sass-cache/d6713cb7d46719264353e104f3c9803d42f670a5/_chart-legend.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/d6713cb7d46719264353e104f3c9803d42f670a5\/_chart-legend.scssc",
+		"oAP": "/sass/.sass-cache/d6713cb7d46719264353e104f3c9803d42f670a5/_chart-legend.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/d6713cb7d46719264353e104f3c9803d42f670a5\/_checkboxes.scssc": {
+	"/sass/.sass-cache/d6713cb7d46719264353e104f3c9803d42f670a5/_checkboxes.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/d6713cb7d46719264353e104f3c9803d42f670a5\/_checkboxes.scssc",
+		"oAP": "/sass/.sass-cache/d6713cb7d46719264353e104f3c9803d42f670a5/_checkboxes.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/d6713cb7d46719264353e104f3c9803d42f670a5\/_iscroll.scssc": {
+	"/sass/.sass-cache/d6713cb7d46719264353e104f3c9803d42f670a5/_iscroll.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/d6713cb7d46719264353e104f3c9803d42f670a5\/_iscroll.scssc",
+		"oAP": "/sass/.sass-cache/d6713cb7d46719264353e104f3c9803d42f670a5/_iscroll.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/d6713cb7d46719264353e104f3c9803d42f670a5\/_menu-button.scssc": {
+	"/sass/.sass-cache/d6713cb7d46719264353e104f3c9803d42f670a5/_menu-button.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/d6713cb7d46719264353e104f3c9803d42f670a5\/_menu-button.scssc",
+		"oAP": "/sass/.sass-cache/d6713cb7d46719264353e104f3c9803d42f670a5/_menu-button.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/d6713cb7d46719264353e104f3c9803d42f670a5\/_selected-candidates.scssc": {
+	"/sass/.sass-cache/d6713cb7d46719264353e104f3c9803d42f670a5/_selected-candidates.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/d6713cb7d46719264353e104f3c9803d42f670a5\/_selected-candidates.scssc",
+		"oAP": "/sass/.sass-cache/d6713cb7d46719264353e104f3c9803d42f670a5/_selected-candidates.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/d6713cb7d46719264353e104f3c9803d42f670a5\/_sidebar.scssc": {
+	"/sass/.sass-cache/d6713cb7d46719264353e104f3c9803d42f670a5/_sidebar.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/d6713cb7d46719264353e104f3c9803d42f670a5\/_sidebar.scssc",
+		"oAP": "/sass/.sass-cache/d6713cb7d46719264353e104f3c9803d42f670a5/_sidebar.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/d6713cb7d46719264353e104f3c9803d42f670a5\/wordcounts.scssc": {
+	"/sass/.sass-cache/d6713cb7d46719264353e104f3c9803d42f670a5/wordcounts.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/sass\/.sass-cache\/d6713cb7d46719264353e104f3c9803d42f670a5\/wordcounts.scssc",
+		"oAP": "/sass/.sass-cache/d6713cb7d46719264353e104f3c9803d42f670a5/wordcounts.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/ddc9f9ec384598f0eb3e89bf74578e3b72e1ea3d\/_bourbon-deprecated-upcoming.scssc": {
+	"/sass/.sass-cache/ddc9f9ec384598f0eb3e89bf74578e3b72e1ea3d/_bourbon-deprecated-upcoming.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/ddc9f9ec384598f0eb3e89bf74578e3b72e1ea3d\/_bourbon-deprecated-upcoming.scssc",
+		"oAP": "/sass/.sass-cache/ddc9f9ec384598f0eb3e89bf74578e3b72e1ea3d/_bourbon-deprecated-upcoming.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/ddc9f9ec384598f0eb3e89bf74578e3b72e1ea3d\/_bourbon.scssc": {
+	"/sass/.sass-cache/ddc9f9ec384598f0eb3e89bf74578e3b72e1ea3d/_bourbon.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/ddc9f9ec384598f0eb3e89bf74578e3b72e1ea3d\/_bourbon.scssc",
+		"oAP": "/sass/.sass-cache/ddc9f9ec384598f0eb3e89bf74578e3b72e1ea3d/_bourbon.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_border-color.scssc": {
+	"/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_border-color.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_border-color.scssc",
+		"oAP": "/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_border-color.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_border-radius.scssc": {
+	"/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_border-radius.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_border-radius.scssc",
+		"oAP": "/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_border-radius.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_border-style.scssc": {
+	"/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_border-style.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_border-style.scssc",
+		"oAP": "/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_border-style.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_border-width.scssc": {
+	"/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_border-width.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_border-width.scssc",
+		"oAP": "/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_border-width.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_buttons.scssc": {
+	"/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_buttons.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_buttons.scssc",
+		"oAP": "/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_buttons.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_clearfix.scssc": {
+	"/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_clearfix.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_clearfix.scssc",
+		"oAP": "/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_clearfix.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_ellipsis.scssc": {
+	"/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_ellipsis.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_ellipsis.scssc",
+		"oAP": "/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_ellipsis.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_font-stacks.scssc": {
+	"/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_font-stacks.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_font-stacks.scssc",
+		"oAP": "/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_font-stacks.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_hide-text.scssc": {
+	"/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_hide-text.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_hide-text.scssc",
+		"oAP": "/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_hide-text.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_margin.scssc": {
+	"/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_margin.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_margin.scssc",
+		"oAP": "/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_margin.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_padding.scssc": {
+	"/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_padding.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_padding.scssc",
+		"oAP": "/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_padding.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_position.scssc": {
+	"/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_position.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_position.scssc",
+		"oAP": "/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_position.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_prefixer.scssc": {
+	"/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_prefixer.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_prefixer.scssc",
+		"oAP": "/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_prefixer.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_retina-image.scssc": {
+	"/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_retina-image.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_retina-image.scssc",
+		"oAP": "/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_retina-image.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_size.scssc": {
+	"/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_size.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_size.scssc",
+		"oAP": "/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_size.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_text-inputs.scssc": {
+	"/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_text-inputs.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_text-inputs.scssc",
+		"oAP": "/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_text-inputs.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_timing-functions.scssc": {
+	"/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_timing-functions.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_timing-functions.scssc",
+		"oAP": "/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_timing-functions.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_triangle.scssc": {
+	"/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_triangle.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_triangle.scssc",
+		"oAP": "/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_triangle.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_word-wrap.scssc": {
+	"/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_word-wrap.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/f41e3cb285c79b49e3eee8e3512f0142646da71b\/_word-wrap.scssc",
+		"oAP": "/sass/.sass-cache/f41e3cb285c79b49e3eee8e3512f0142646da71b/_word-wrap.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d\/_chart-legend.scssc": {
+	"/sass/.sass-cache/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d/_chart-legend.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d\/_chart-legend.scssc",
+		"oAP": "/sass/.sass-cache/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d/_chart-legend.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d\/_checkboxes.scssc": {
+	"/sass/.sass-cache/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d/_checkboxes.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d\/_checkboxes.scssc",
+		"oAP": "/sass/.sass-cache/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d/_checkboxes.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d\/_iscroll.scssc": {
+	"/sass/.sass-cache/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d/_iscroll.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d\/_iscroll.scssc",
+		"oAP": "/sass/.sass-cache/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d/_iscroll.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d\/_menu-button.scssc": {
+	"/sass/.sass-cache/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d/_menu-button.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d\/_menu-button.scssc",
+		"oAP": "/sass/.sass-cache/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d/_menu-button.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d\/_selected-candidates.scssc": {
+	"/sass/.sass-cache/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d/_selected-candidates.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d\/_selected-candidates.scssc",
+		"oAP": "/sass/.sass-cache/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d/_selected-candidates.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d\/_sidebar.scssc": {
+	"/sass/.sass-cache/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d/_sidebar.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d\/_sidebar.scssc",
+		"oAP": "/sass/.sass-cache/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d/_sidebar.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d\/wordcounts.scssc": {
+	"/sass/.sass-cache/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d/wordcounts.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/sass\/.sass-cache\/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d\/wordcounts.scssc",
+		"oAP": "/sass/.sass-cache/f5d3cd4e4a11bbd8830cd09f3ef1cae7906e063d/wordcounts.scssc",
 		"oF": 0
 		},
-	"\/sass\/_chart-legend.scss": {
+	"/sass/_chart-legend.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1887,12 +1887,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/css\/_chart-legend.css",
+		"oAP": "/css/_chart-legend.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/_checkboxes.scss": {
+	"/sass/_checkboxes.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1900,12 +1900,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/css\/_checkboxes.css",
+		"oAP": "/css/_checkboxes.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/_menu-button.scss": {
+	"/sass/_menu-button.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1913,12 +1913,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/css\/_menu-button.css",
+		"oAP": "/css/_menu-button.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/_selected-candidates.scss": {
+	"/sass/_selected-candidates.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1926,12 +1926,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/css\/_selected-candidates.css",
+		"oAP": "/css/_selected-candidates.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/_sidebar.scss": {
+	"/sass/_sidebar.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1939,12 +1939,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/css\/_sidebar.css",
+		"oAP": "/css/_sidebar.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/_variables.scss": {
+	"/sass/_variables.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1952,12 +1952,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/css\/_variables.css",
+		"oAP": "/css/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/wordcounts.scss": {
+	"/sass/wordcounts.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1965,62 +1965,62 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/css\/wordcounts.css",
+		"oAP": "/css/wordcounts.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/scripts\/c3.min.js": {
+	"/scripts/c3.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/scripts\/min\/c3.min-min.js",
+		"oAP": "/scripts/min/c3.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/scripts\/chart.js": {
+	"/scripts/chart.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/scripts\/min\/chart-min.js",
+		"oAP": "/scripts/min/chart-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/scripts\/iscroll.js": {
+	"/scripts/iscroll.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/scripts\/min\/iscroll-min.js",
+		"oAP": "/scripts/min/iscroll-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/scripts\/jquery.mask.min.js": {
+	"/scripts/jquery.mask.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/scripts\/min\/jquery.mask.min-min.js",
+		"oAP": "/scripts/min/jquery.mask.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/scripts\/min\/chart-min.js": {
+	"/scripts/min/chart-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/scripts\/min\/min\/chart-min-min.js",
+		"oAP": "/scripts/min/min/chart-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/Users\/zsteiner\/Development\/zachsteiner.com\/global\/sass\/_footer-sticky.scss": {
+	"/Users/zsteiner/Development/global/sass/_footer-sticky.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -2028,12 +2028,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/Users\/zsteiner\/Development\/zachsteiner.com\/global\/css\/_footer-sticky.css",
+		"oAP": "/Users/zsteiner/Development/global/css/_footer-sticky.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/Users\/zsteiner\/Development\/zachsteiner.com\/global\/sass\/_reset.scss": {
+	"/Users/zsteiner/Development/global/sass/_reset.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -2041,12 +2041,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/Users\/zsteiner\/Development\/zachsteiner.com\/global\/css\/_reset.css",
+		"oAP": "/Users/zsteiner/Development/global/css/_reset.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/Users\/zsteiner\/Development\/zachsteiner.com\/global\/sass\/_typography.scss": {
+	"/Users/zsteiner/Development/global/sass/_typography.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -2054,12 +2054,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/Users\/zsteiner\/Development\/zachsteiner.com\/global\/css\/_typography.css",
+		"oAP": "/Users/zsteiner/Development/global/css/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/Users\/zsteiner\/Development\/zachsteiner.com\/global\/sass\/_utility.scss": {
+	"/Users/zsteiner/Development/global/sass/_utility.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -2067,12 +2067,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/Users\/zsteiner\/Development\/zachsteiner.com\/global\/css\/_utility.css",
+		"oAP": "/Users/zsteiner/Development/global/css/_utility.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/Users\/zsteiner\/Development\/zachsteiner.com\/global\/sass\/_variables.scss": {
+	"/Users/zsteiner/Development/global/sass/_variables.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -2080,7 +2080,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/Users\/zsteiner\/Development\/zachsteiner.com\/global\/css\/_variables.css",
+		"oAP": "/Users/zsteiner/Development/global/css/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2102,141 +2102,94 @@
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 0,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
-		"inline-environment-variables": {
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
 			"active": 0
 			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -2248,7 +2201,28 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -2260,7 +2234,25 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -2296,53 +2288,46 @@
 		"remove-debugger": {
 			"active": 0
 			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -2351,6 +2336,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 0,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -2708,6 +2694,10 @@
 			"active": 0,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
 		"max-depth": {
 			"active": 0,
 			"optionString": "{'max': 4}"
@@ -2719,6 +2709,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -2764,6 +2758,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
@@ -2782,10 +2780,6 @@
 			},
 		"no-case-declarations": {
 			"active": 1,
-			"optionString": ""
-			},
-		"no-catch-shadow": {
-			"active": 0,
 			"optionString": ""
 			},
 		"no-class-assign": {
@@ -2984,9 +2978,13 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
@@ -3340,6 +3338,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
@@ -3368,6 +3370,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -3375,6 +3381,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 0,
@@ -3430,7 +3440,7 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
@@ -3490,7 +3500,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -3885,7 +3895,6 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
@@ -3904,7 +3913,7 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.js",
-		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
@@ -3936,19 +3945,19 @@
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
 		"createSourceMap": 0,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -4004,7 +4013,7 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
@@ -4033,7 +4042,7 @@
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
@@ -4057,36 +4066,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 0,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"bare_returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -4094,11 +4137,11 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"braces": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -4122,6 +4165,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -4138,7 +4185,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -4146,20 +4201,32 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"if_return": {
+		"html5_comments": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"ie8": {
 			"active": 0,
-			"flagValue": 4
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"indent-start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
+		"indent_level": {
 			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
@@ -4174,6 +4241,14 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -4182,12 +4257,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
 			},
 		"negate_iife": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"properties": {
@@ -4198,12 +4281,20 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
-			"active": 0,
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"semicolons": {
@@ -4214,23 +4305,51 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -4242,9 +4361,17 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"width": {
 			"active": 1,
 			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
 	"uglifyReservedNamesString": "$",
